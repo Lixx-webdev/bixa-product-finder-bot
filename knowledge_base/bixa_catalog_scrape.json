@@ -1,0 +1,3645 @@
+{
+  "scrapedFrom": "https://bixabotanical.in/products.json (collections/all catalog)",
+  "scrapedAt": "2026-09-28T10:07:30.874Z",
+  "counts": {
+    "total": 158,
+    "powders": 108,
+    "capsules": 27,
+    "combos": 15,
+    "other": 8
+  },
+  "powders": [
+    {
+      "id": 5691587788954,
+      "title": "Gokhru (Tribulus Terresteris) Dry Extract - 40% Saponins by Gravimetry",
+      "handle": "tribulus-tribulus-terresteris-dry-extract-40-saponins-by-gravimetry",
+      "url": "https://bixabotanical.in/products/tribulus-tribulus-terresteris-dry-extract-40-saponins-by-gravimetry",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "25 kg",
+        "Heart health",
+        "Herbal extract",
+        "wellness"
+      ],
+      "priceFrom": 1420
+    },
+    {
+      "id": 4600419909676,
+      "title": "Shankhapushpi Herb Powder ( Convolvulus Pluricaulis )",
+      "handle": "shankhapushpi-herb-powder-convolvulus-pluricaulis",
+      "url": "https://bixabotanical.in/products/shankhapushpi-herb-powder-convolvulus-pluricaulis",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "50% sale",
+        "Between Rs.200 - Rs.500",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "Nerve health",
+        "Nerve Wellness",
+        "wellness"
+      ],
+      "priceFrom": 345
+    },
+    {
+      "id": 5070462648364,
+      "title": "Guggul (Commiphora Mukul) dry Extract - 2.5% Guggulsterones by UV",
+      "handle": "guggul-commiphora-mukul-dry-extract-2-5-guggulsterones-by-uv",
+      "url": "https://bixabotanical.in/products/guggul-commiphora-mukul-dry-extract-2-5-guggulsterones-by-uv",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Herbal extract"
+      ],
+      "priceFrom": 3421
+    },
+    {
+      "id": 4601016188972,
+      "title": "Alfalfa Herb Powder ( Medicago Sativa )",
+      "handle": "alfalfa-herb-powder-medicago-sativa",
+      "url": "https://bixabotanical.in/products/alfalfa-herb-powder-medicago-sativa",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Less than Rs.200",
+        "Nutritional",
+        "Nutritional health",
+        "Nutritional Wellness",
+        "wellness"
+      ],
+      "priceFrom": 335
+    },
+    {
+      "id": 4600417845292,
+      "title": "Haldi Root Powder ( Curcuma Longa )",
+      "handle": "haldi-powder-curcuma-longa",
+      "url": "https://bixabotanical.in/products/haldi-powder-curcuma-longa",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "50% sale",
+        "Between Rs.200 - Rs.500",
+        "For Immunity",
+        "For Immunity wellness",
+        "Herbal Powders",
+        "immunity",
+        "immunity health",
+        "Immunity Wellness",
+        "Less than Rs.200",
+        "Skin Wellness",
+        "wellness"
+      ],
+      "priceFrom": 380
+    },
+    {
+      "id": 7028000653496,
+      "title": "Kaunch Beej (Mucuna Pruriens) dry Extract - 20% L-Dopa by Titration",
+      "handle": "copy-of-kauch-beej-mucuna-pruriens-dry-extract-20-l-dopa-by-titration",
+      "url": "https://bixabotanical.in/products/copy-of-kauch-beej-mucuna-pruriens-dry-extract-20-l-dopa-by-titration",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Herbal extract"
+      ],
+      "priceFrom": 3021
+    },
+    {
+      "id": 7028000391352,
+      "title": "Ashwagandha (Withania Somnifera) Dry Extract Herb - 2.5% Total Withanolides by gravimetry",
+      "handle": "copy-of-ashwagandha-withania-somnifera-dry-extract-herb-2-5-total-withanolides-by-gravimetry",
+      "url": "https://bixabotanical.in/products/copy-of-ashwagandha-withania-somnifera-dry-extract-herb-2-5-total-withanolides-by-gravimetry",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "25 kg",
+        "Above $125",
+        "Ashwagandha",
+        "Herbal extract"
+      ],
+      "priceFrom": 1395
+    },
+    {
+      "id": 5691854291098,
+      "title": "Kalmegh (Andrographis Paniculata) Dry Extract - 10% Total Andrographolide by HPLC",
+      "handle": "kalmegh-andrographis-paniculata-dry-extract-20-total-andrographolide-by-hplc",
+      "url": "https://bixabotanical.in/products/kalmegh-andrographis-paniculata-dry-extract-20-total-andrographolide-by-hplc",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "25 kg",
+        "Herbal extract",
+        "kalmegh",
+        "wellness"
+      ],
+      "priceFrom": 2265
+    },
+    {
+      "id": 5691701362842,
+      "title": "Black pepper (Piper Nigrum) Dry Extract - 5% Piperine by HPLC",
+      "handle": "black-pepper-piper-nigrum-dry-extract-5-piperine-by-hplc",
+      "url": "https://bixabotanical.in/products/black-pepper-piper-nigrum-dry-extract-5-piperine-by-hplc",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "25 kg",
+        "Above $125",
+        "Black Pepper",
+        "Herbal extract"
+      ],
+      "priceFrom": 3195
+    },
+    {
+      "id": 5691193950362,
+      "title": "Arjuna (Terminalia Arjuna) Dry Extract - 30% Tannins by Gravimetry",
+      "handle": "arjuna-terminalia-arjuna-dry-extract-40-tannins-by-gravimetry",
+      "url": "https://bixabotanical.in/products/arjuna-terminalia-arjuna-dry-extract-40-tannins-by-gravimetry",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "25 kg",
+        "Above $125",
+        "arjuna",
+        "Heart",
+        "Herbal extract"
+      ],
+      "priceFrom": 1545
+    },
+    {
+      "id": 5691171405978,
+      "title": "Indian Senna (Cassia Angustifolia) Dry Extract - 20% Sennosides by UV",
+      "handle": "indian-senna-cassia-angustifolia-dry-extract-20-sennosides-by-uv",
+      "url": "https://bixabotanical.in/products/indian-senna-cassia-angustifolia-dry-extract-20-sennosides-by-uv",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "25 kg",
+        "Herbal extract",
+        "wellness"
+      ],
+      "priceFrom": 2995
+    },
+    {
+      "id": 5691140341914,
+      "title": "Green Coffee (Coffea robusta) Dry Extract - 50% Chlorogenic acid by HPLC",
+      "handle": "green-coffee-coffea-robusta-dry-extract-50-chlorogenic-acid-by-hplc",
+      "url": "https://bixabotanical.in/products/green-coffee-coffea-robusta-dry-extract-50-chlorogenic-acid-by-hplc",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "Green Coffee",
+        "Heart",
+        "Herbal extract",
+        "wellness"
+      ],
+      "priceFrom": 4145
+    },
+    {
+      "id": 5691090501786,
+      "title": "Caralluma (Caralluma Fimbriata) Dry Extract - 30% Pregnane Glycosides by Gravimetry",
+      "handle": "caralluma-caralluma-fimbriata-dry-extract-30-pregnane-glycosides-by-gravimetry",
+      "url": "https://bixabotanical.in/products/caralluma-caralluma-fimbriata-dry-extract-30-pregnane-glycosides-by-gravimetry",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "25 kg",
+        "Herbal extract"
+      ],
+      "priceFrom": 2345
+    },
+    {
+      "id": 5076359446572,
+      "title": "Papaya Leaf (Carica Papaya) Dry Extract  - 30% Glycosides (Saponnin) by Gravimetry",
+      "handle": "papaya-leaf-carica-papaya-dry-extract-20-glycosides-saponnin-by-gravimetry",
+      "url": "https://bixabotanical.in/products/papaya-leaf-carica-papaya-dry-extract-20-glycosides-saponnin-by-gravimetry",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Between Rs.500 - Rs.1000",
+        "Herbal extract",
+        "wellness"
+      ],
+      "priceFrom": 1895
+    },
+    {
+      "id": 5076341424172,
+      "title": "Green Tea (Camellia Sinensis) dry Extract - 50% Polyphenols by UV",
+      "handle": "green-tea-camellia-sinensis-dry-extract-50-polyphenols-by-uv",
+      "url": "https://bixabotanical.in/products/green-tea-camellia-sinensis-dry-extract-50-polyphenols-by-uv",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Between Rs.500 - Rs.1000",
+        "Herbal extract",
+        "sugar control"
+      ],
+      "priceFrom": 1545
+    },
+    {
+      "id": 5076323663916,
+      "title": "Safed Musli (Chlorophytum borivilianum) dry Extract - 30% Saponins by Gravimetry",
+      "handle": "safed-musli-chlorophytum-borivilianum-dry-extract-40-saponins-by-gravimetry",
+      "url": "https://bixabotanical.in/products/safed-musli-chlorophytum-borivilianum-dry-extract-40-saponins-by-gravimetry",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Herbal extract",
+        "wellness"
+      ],
+      "priceFrom": 4245
+    },
+    {
+      "id": 5076305248300,
+      "title": "Karela / Bitter Melon (Momordica Charantia) dry Extract - 5% Bitters by Gravimetry",
+      "handle": "karela-bitter-melon-momordica-charantia-dry-extract-2-5-bitters-by-gravimetry",
+      "url": "https://bixabotanical.in/products/karela-bitter-melon-momordica-charantia-dry-extract-2-5-bitters-by-gravimetry",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Herbal extract"
+      ],
+      "priceFrom": 1495
+    },
+    {
+      "id": 5076276183084,
+      "title": "Jamun (Eugenia Jambolana) dry Extract - 5% Bitters by Gravimetry",
+      "handle": "jamun-eugenia-jambolana-dry-extract-2-5-bitters-by-gravimetry",
+      "url": "https://bixabotanical.in/products/jamun-eugenia-jambolana-dry-extract-2-5-bitters-by-gravimetry",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Between Rs.500 - Rs.1000",
+        "Herbal extract"
+      ],
+      "priceFrom": 2145
+    },
+    {
+      "id": 5076267860012,
+      "title": "Neem (Azadirchta indica) dry Extract - 2.5% Bitters by Gravimetry",
+      "handle": "neem-azadirchta-indica-dry-extract-2-5-bitters-by-gravimetry",
+      "url": "https://bixabotanical.in/products/neem-azadirchta-indica-dry-extract-2-5-bitters-by-gravimetry",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Between Rs.500 - Rs.1000",
+        "Herbal extract",
+        "wellness"
+      ],
+      "priceFrom": 1045
+    },
+    {
+      "id": 5076257439788,
+      "title": "Methi/ Fenugreek (Trigonella Foenum-Graecum) dry Extract - 40% Saponins by Gravimetry",
+      "handle": "methi-trigonella-foenum-graecum-dry-extract-40-saponins-by-gravimetry",
+      "url": "https://bixabotanical.in/products/methi-trigonella-foenum-graecum-dry-extract-40-saponins-by-gravimetry",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Between Rs.500 - Rs.1000",
+        "Herbal extract",
+        "wellness"
+      ],
+      "priceFrom": 1995
+    },
+    {
+      "id": 5076245807148,
+      "title": "Shatavari (Asparagus Racemosus) dry Extract - 40% Saponnins by Gravimetry",
+      "handle": "satavar-asparagus-racemosus-dry-extract-40-saponnins-by-gravimetry",
+      "url": "https://bixabotanical.in/products/satavar-asparagus-racemosus-dry-extract-40-saponnins-by-gravimetry",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Herbal extract",
+        "wellness"
+      ],
+      "priceFrom": 2155
+    },
+    {
+      "id": 5076235321388,
+      "title": "Triphala (Amla + Haritaki + Bibhitak) dry Extract - 40% Tannins by Titration",
+      "handle": "triphala-amla-haritaki-bibhitak-dry-extract-40-tannins-by-titration",
+      "url": "https://bixabotanical.in/products/triphala-amla-haritaki-bibhitak-dry-extract-40-tannins-by-titration",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Between Rs.500 - Rs.1000",
+        "Herbal extract",
+        "wellness"
+      ],
+      "priceFrom": 1241
+    },
+    {
+      "id": 5076222214188,
+      "title": "Baheda (Terminalia Belerica) Dry Extract - 40% Tannins by Titration",
+      "handle": "baheda-terminalia-belerica-dry-extract-30-tannins-by-titration",
+      "url": "https://bixabotanical.in/products/baheda-terminalia-belerica-dry-extract-30-tannins-by-titration",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "antioxidant",
+        "Between Rs.500 - Rs.1000",
+        "Herbal extract"
+      ],
+      "priceFrom": 1243
+    },
+    {
+      "id": 5076210221100,
+      "title": "Harda (Terminalia Chebula) dry Extract - 40% Tannins by Titration",
+      "handle": "harde-terminalia-chebula-dry-extract-30-tannins-by-titration",
+      "url": "https://bixabotanical.in/products/harde-terminalia-chebula-dry-extract-30-tannins-by-titration",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Between Rs.500 - Rs.1000",
+        "Herbal extract"
+      ],
+      "priceFrom": 1063
+    },
+    {
+      "id": 5076189544492,
+      "title": "Giloy (Guduchi /Tinospora Cordifolia) dry Extract - 2.5% Bitters by Gravimetry Guduchi",
+      "handle": "guduchi-giloy-tinospora-cordifolia-dry-extract-2-5-bitters-by-gravimetry",
+      "url": "https://bixabotanical.in/products/guduchi-giloy-tinospora-cordifolia-dry-extract-2-5-bitters-by-gravimetry",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Herbal extract"
+      ],
+      "priceFrom": 1145
+    },
+    {
+      "id": 5076179976236,
+      "title": "Holy Basil / Tulsi (Ocimum Sanctum) Dry Extract - 2.5% Total Usrolic Acid by HPLC",
+      "handle": "holy-basil-tulsi-ocimum-sanctum-dry-extract-2-5-titerpene-acids-oa-ua-by-hplc",
+      "url": "https://bixabotanical.in/products/holy-basil-tulsi-ocimum-sanctum-dry-extract-2-5-titerpene-acids-oa-ua-by-hplc",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Herbal extract"
+      ],
+      "priceFrom": 5195
+    },
+    {
+      "id": 5076155170860,
+      "title": "Turmeric / Haldi (Curcuma longa) dry Extract - 20% Total Curcumin by HPLC",
+      "handle": "turmeric-haldi-curcuma-longa-dry-extract-10-total-cucuminoids-by-hplc",
+      "url": "https://bixabotanical.in/products/turmeric-haldi-curcuma-longa-dry-extract-10-total-cucuminoids-by-hplc",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Herbal extract",
+        "wellness"
+      ],
+      "priceFrom": 3095
+    },
+    {
+      "id": 5076086587436,
+      "title": "Brahmi (Bacopa Monnieri) Dry Extract - 20% Bacosides by UV",
+      "handle": "neer-brahmi-bacopa-monnieri-dry-extract-20-bacosides-by-uv",
+      "url": "https://bixabotanical.in/products/neer-brahmi-bacopa-monnieri-dry-extract-20-bacosides-by-uv",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Herbal extract",
+        "wellness"
+      ],
+      "priceFrom": 2545
+    },
+    {
+      "id": 5076073414700,
+      "title": "Ashwagandha root  (Withania somnifera) dry Extract - 2.5% Total Withanolides by Gravimetry",
+      "handle": "ashwagandha-withania-somnifera-dry-extract-2-5-total-withanolides-by-gravimetry",
+      "url": "https://bixabotanical.in/products/ashwagandha-withania-somnifera-dry-extract-2-5-total-withanolides-by-gravimetry",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Herbal extract"
+      ],
+      "priceFrom": 7295
+    },
+    {
+      "id": 5076033732652,
+      "title": "Shilajit (Asphaltum) Dry Extract - 40% Fulvic acid by Gravimetry",
+      "handle": "shilajit-asphaltum-dry-extract-40-fulvic-acid-by-gravimetry",
+      "url": "https://bixabotanical.in/products/shilajit-asphaltum-dry-extract-40-fulvic-acid-by-gravimetry",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Herbal extract",
+        "wellness"
+      ],
+      "priceFrom": 6619
+    },
+    {
+      "id": 5076008927276,
+      "title": "Kaunch beej (Mucuna pruriens) dry Extract - 15% L-Dopa by HPLC",
+      "handle": "kauch-beejmucuna-pruriens-dry-extract-20-l-dopa-by-titration",
+      "url": "https://bixabotanical.in/products/kauch-beejmucuna-pruriens-dry-extract-20-l-dopa-by-titration",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Herbal extract"
+      ],
+      "priceFrom": 2645
+    },
+    {
+      "id": 5075984023596,
+      "title": "Moringa/ Shigru (Moringa Oleifera) Dry Extract - 30% Saponins by Gravimetry",
+      "handle": "moringa-moringa-oleifera-dry-extract-20-saponnins-by-gravimetry",
+      "url": "https://bixabotanical.in/products/moringa-moringa-oleifera-dry-extract-20-saponnins-by-gravimetry",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Herbal extract",
+        "moringa leaves",
+        "wellness"
+      ],
+      "priceFrom": 1495
+    },
+    {
+      "id": 5075938639916,
+      "title": "Licorice/ Mulethi (Glycyrrhiza Glabra) dry Extract - 20% Glycyrrhizin by Gravimetry",
+      "handle": "licorice-glycyrrhiza-glabra-dry-extract-20-glycyrrhizin-by-gravimetry",
+      "url": "https://bixabotanical.in/products/licorice-glycyrrhiza-glabra-dry-extract-20-glycyrrhizin-by-gravimetry",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Between Rs.500 - Rs.1000",
+        "Herbal extract",
+        "wellness"
+      ],
+      "priceFrom": 1695
+    },
+    {
+      "id": 5075826802732,
+      "title": "Ginger (Zingiber Officinale) Dry Extract - 5% Gingerols by UV",
+      "handle": "ginger-zingiber-officinale-dry-extract-5-gingerols-by-uv",
+      "url": "https://bixabotanical.in/products/ginger-zingiber-officinale-dry-extract-5-gingerols-by-uv",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Between Rs.500 - Rs.1000",
+        "Herbal extract"
+      ],
+      "priceFrom": 1095
+    },
+    {
+      "id": 5075646971948,
+      "title": "Garcinia (Garcinia Cambogia) dry Extract - 60% Ca-HCA by HPLC",
+      "handle": "garcinia-garcinia-cambogia-dry-extract-60-ca-hca-by-hplc",
+      "url": "https://bixabotanical.in/products/garcinia-garcinia-cambogia-dry-extract-60-ca-hca-by-hplc",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Between Rs.500 - Rs.1000",
+        "Herbal extract"
+      ],
+      "priceFrom": 1145
+    },
+    {
+      "id": 5075611484204,
+      "title": "Hadjod (Cissus Quadragularis) dry Extract - 2.5% 3-Keto steroids by Gravimetry",
+      "handle": "hadjod-cissus-quadragularis-dry-extract-2-5-3-keto-steroids-by-gravimetry",
+      "url": "https://bixabotanical.in/products/hadjod-cissus-quadragularis-dry-extract-2-5-3-keto-steroids-by-gravimetry",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Herbal extract"
+      ],
+      "priceFrom": 1495
+    },
+    {
+      "id": 5070483193900,
+      "title": "Gurmar (Gymnema Sylvestre) dry Extract - 25% Gymnemic acid by Gravimetry",
+      "handle": "gurmar-gymnema-sylvestre-dry-extract-25-gymnemic-acid-by-gravimetry",
+      "url": "https://bixabotanical.in/products/gurmar-gymnema-sylvestre-dry-extract-25-gymnemic-acid-by-gravimetry",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Herbal extract"
+      ],
+      "priceFrom": 2345
+    },
+    {
+      "id": 5070426800172,
+      "title": "Amla ( Emblica officinalis ) dry Extract - 40% Tannins by Titration",
+      "handle": "amla-emblica-officinalis-dry-extract-40-tannins-by-titration",
+      "url": "https://bixabotanical.in/products/amla-emblica-officinalis-dry-extract-40-tannins-by-titration",
+      "productType": "Herbal Extract Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "25 kg",
+        "Herbal extract",
+        "Nutritional health",
+        "Nutritional Wellness",
+        "wellness"
+      ],
+      "priceFrom": 1395
+    },
+    {
+      "id": 4611461972012,
+      "title": "Yellow Dock Root Powder ( Rumex Crispus )",
+      "handle": "yellow-dock-root-powder-rumex-crispus",
+      "url": "https://bixabotanical.in/products/yellow-dock-root-powder-rumex-crispus",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Herbal Powders",
+        "wellness"
+      ],
+      "priceFrom": 480
+    },
+    {
+      "id": 4611456958508,
+      "title": "Majuphal Galls Powder ( Quercus infectoria )",
+      "handle": "majuphal-powder-quercus-infectoria",
+      "url": "https://bixabotanical.in/products/majuphal-powder-quercus-infectoria",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "200 gm",
+        "25 kg",
+        "Between Rs.500 - Rs.1000",
+        "Blood Wellness",
+        "Herbal Powders",
+        "wellness"
+      ],
+      "priceFrom": 640
+    },
+    {
+      "id": 4611445260332,
+      "title": "Pippalamul Root Powder ( Piper Longum Root )",
+      "handle": "pippalamul-powder-piper-longum",
+      "url": "https://bixabotanical.in/products/pippalamul-powder-piper-longum",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "50% sale",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "For respiratory health",
+        "Herbal Powders",
+        "Respiratory",
+        "Respiratory health",
+        "wellness"
+      ],
+      "priceFrom": 580
+    },
+    {
+      "id": 4601526091820,
+      "title": "Ashwagandha Root Powder ( Withania Somnifera)",
+      "handle": "ashwagandha-root-powder-withania-somnifera",
+      "url": "https://bixabotanical.in/products/ashwagandha-root-powder-withania-somnifera",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "Fitness nutrition",
+        "Herbal Powders",
+        "Immunity Wellness",
+        "Joint & Tissue health",
+        "Joint health",
+        "Joint Wellness",
+        "Mental",
+        "Mental Wellness",
+        "newlabel",
+        "Top_Selling",
+        "wellness"
+      ],
+      "priceFrom": 509
+    },
+    {
+      "id": 4601525960748,
+      "title": "Nirgundi Leaves Powder ( Vitex Negundo )",
+      "handle": "nirgundi-leaves-powder-vitex-negundo",
+      "url": "https://bixabotanical.in/products/nirgundi-leaves-powder-vitex-negundo",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Herbal Powders",
+        "Joint & Tissue health",
+        "Joint health",
+        "Joint Wellness",
+        "Less than Rs.200",
+        "wellness"
+      ],
+      "priceFrom": 330
+    },
+    {
+      "id": 4601515900972,
+      "title": "Tagara Root Powder ( Valeriana Wallichii )",
+      "handle": "tagara-powder-valeriana-wallichii",
+      "url": "https://bixabotanical.in/products/tagara-powder-valeriana-wallichii",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "200 gm",
+        "25 kg",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Powders",
+        "Mental",
+        "Mental Wellness",
+        "newsale",
+        "wellness"
+      ],
+      "priceFrom": 575
+    },
+    {
+      "id": 4601437814828,
+      "title": "Triphala Fruit Powder ( Amla + Haritaki + Bibhitaki )",
+      "handle": "triphala-fruit-powder-amla-haritaki-bibhitaki",
+      "url": "https://bixabotanical.in/products/triphala-fruit-powder-amla-haritaki-bibhitaki",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "50% sale",
+        "Between Rs.200 - Rs.500",
+        "Digestive",
+        "Digestive health",
+        "Digestive Wellness",
+        "For Digestive health",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "wellness"
+      ],
+      "priceFrom": 430
+    },
+    {
+      "id": 4601437519916,
+      "title": "Methi Seeds Powder ( Trigonella Foenum-Graecum )",
+      "handle": "methi-powder-trigonella-foenum-graecum",
+      "url": "https://bixabotanical.in/products/methi-powder-trigonella-foenum-graecum",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "For Women health",
+        "hair",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "wellness",
+        "Women health",
+        "Women Wellness"
+      ],
+      "priceFrom": 280
+    },
+    {
+      "id": 4601410650156,
+      "title": "Giloy Stem Powder ( Tinospora Cordifolia )",
+      "handle": "guduchi-stem-powder-tinospora-cordifolia",
+      "url": "https://bixabotanical.in/products/guduchi-stem-powder-tinospora-cordifolia",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "For Immunity",
+        "For Immunity wellness",
+        "guduchicappow",
+        "Herbal Powders",
+        "immunity",
+        "immunity health",
+        "Immunity Wellness",
+        "Less than Rs.200",
+        "Top_Selling",
+        "wellness"
+      ],
+      "priceFrom": 285
+    },
+    {
+      "id": 4601410486316,
+      "title": "Gokhru Fruit Powder ( Tribulus Terresteris )",
+      "handle": "gokhru-powder-tribulus-terresteris",
+      "url": "https://bixabotanical.in/products/gokhru-powder-tribulus-terresteris",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Herbal Powders",
+        "kidney",
+        "Kidney Wellness",
+        "Less than Rs.200",
+        "wellness"
+      ],
+      "priceFrom": 330
+    },
+    {
+      "id": 4601400328236,
+      "title": "Baheda Fruit Powder ( Terminalia Belerica )",
+      "handle": "baheda-powder-terminalia-belerica",
+      "url": "https://bixabotanical.in/products/baheda-powder-terminalia-belerica",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "wellness"
+      ],
+      "priceFrom": 286
+    },
+    {
+      "id": 4601400197164,
+      "title": "Harde Fruit Powder ( Terminalia Chebula )",
+      "handle": "harde-powder-terminalia-chebula",
+      "url": "https://bixabotanical.in/products/harde-powder-terminalia-chebula",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "50% sale",
+        "Between Rs.200 - Rs.500",
+        "Digestive",
+        "Digestive health",
+        "Digestive Wellness",
+        "For Digestive health",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "newsale",
+        "wellness"
+      ],
+      "priceFrom": 285
+    },
+    {
+      "id": 4601345409068,
+      "title": "Arjuna Bark Powder ( Terminalia Arjuna )",
+      "handle": "arjuna-bark-powder-terminalia-arjuna",
+      "url": "https://bixabotanical.in/products/arjuna-bark-powder-terminalia-arjuna",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Heart",
+        "heart health",
+        "Heart Wellness",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "wellness"
+      ],
+      "priceFrom": 335
+    },
+    {
+      "id": 4601344589868,
+      "title": "Stevia Leaves Powder ( Stevia Rebaudiana )",
+      "handle": "stevia-leaves-powder-stevia-rebaudiana",
+      "url": "https://bixabotanical.in/products/stevia-leaves-powder-stevia-rebaudiana",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "Diabetic Wellness",
+        "Herbal Powders",
+        "newsale",
+        "wellness"
+      ],
+      "priceFrom": 330
+    },
+    {
+      "id": 4601311297580,
+      "title": "Pashanbhed Root Powder ( Saxifraga Ligulata )",
+      "handle": "pashanbhed-root-powder-saxifraga-ligulata",
+      "url": "https://bixabotanical.in/products/pashanbhed-root-powder-saxifraga-ligulata",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Powders",
+        "wellness"
+      ],
+      "priceFrom": 330
+    },
+    {
+      "id": 4601311166508,
+      "title": "Chopchini Root Powder ( Smilax China )",
+      "handle": "chopchini-root-powder-smilax-china",
+      "url": "https://bixabotanical.in/products/chopchini-root-powder-smilax-china",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "200 gm",
+        "25 kg",
+        "Between Rs.500 - Rs.1000",
+        "Digestive Wellness",
+        "Herbal Powders",
+        "Kidney Wellness",
+        "wellness"
+      ],
+      "priceFrom": 565
+    },
+    {
+      "id": 4601302941740,
+      "title": "Manjistha Root Powder ( Rubia Cordifolia )",
+      "handle": "manjistha-root-powder-rubia-cordifolia",
+      "url": "https://bixabotanical.in/products/manjistha-root-powder-rubia-cordifolia",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Blood Wellness",
+        "For Skin health",
+        "Herbal Powders",
+        "Skin",
+        "Skin Wellness",
+        "wellness"
+      ],
+      "priceFrom": 380
+    },
+    {
+      "id": 4601211519020,
+      "title": "Revan Chini Powder ( Rheum Emodi )",
+      "handle": "revan-chini-powder-rheum-emodi",
+      "url": "https://bixabotanical.in/products/revan-chini-powder-rheum-emodi",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Powders",
+        "wellness"
+      ],
+      "priceFrom": 330
+    },
+    {
+      "id": 4601211486252,
+      "title": "Madanphal Fruit Powder ( Randia Dumetorum )",
+      "handle": "madanphal-powder-randia-dumetorum",
+      "url": "https://bixabotanical.in/products/madanphal-powder-randia-dumetorum",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "wellness"
+      ],
+      "priceFrom": 330
+    },
+    {
+      "id": 4601190973484,
+      "title": "Vidarikand Root Powder ( Pueraria Tuberosa )",
+      "handle": "vidarikand-powder-pueraria-tuberosa",
+      "url": "https://bixabotanical.in/products/vidarikand-powder-pueraria-tuberosa",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "For Women health",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "wellness",
+        "Women health",
+        "Women Wellness"
+      ],
+      "priceFrom": 330
+    },
+    {
+      "id": 4601190776876,
+      "title": "Pomegranate Peel Powder ( Punica Granatum )",
+      "handle": "pomegranate-fruit-peel-powder-punica-granatum",
+      "url": "https://bixabotanical.in/products/pomegranate-fruit-peel-powder-punica-granatum",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Digestive Wellness",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "newsale",
+        "wellness"
+      ],
+      "priceFrom": 285
+    },
+    {
+      "id": 4601177931820,
+      "title": "Chitrak Root Powder ( Plumbago Zeylanica )",
+      "handle": "chitrak-root-powder-plumbago-zeylanica",
+      "url": "https://bixabotanical.in/products/chitrak-root-powder-plumbago-zeylanica",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "50% sale",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "Digestive Wellness",
+        "Herbal Powders",
+        "wellness"
+      ],
+      "priceFrom": 480
+    },
+    {
+      "id": 4601177636908,
+      "title": "Sat Isabgol Powder ( Plantago Ovata )",
+      "handle": "sat-isabgol-powder-plantago-ovata",
+      "url": "https://bixabotanical.in/products/sat-isabgol-powder-plantago-ovata",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Powders",
+        "wellness"
+      ],
+      "priceFrom": 595
+    },
+    {
+      "id": 4601160106028,
+      "title": "Pippali Fruit Powder ( Piper Longum )",
+      "handle": "pippali-fruit-powder-piper-longum",
+      "url": "https://bixabotanical.in/products/pippali-fruit-powder-piper-longum",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "200 gm",
+        "25 kg",
+        "Between Rs.500 - Rs.1000",
+        "For respiratory health",
+        "Herbal Powders",
+        "Respiratory",
+        "Respiratory health",
+        "wellness"
+      ],
+      "priceFrom": 580
+    },
+    {
+      "id": 4601118195756,
+      "title": "Tulsi Leaves Powder ( Ocimum Sanctum )",
+      "handle": "tulsi-leaves-powder-ocimum-sanctum",
+      "url": "https://bixabotanical.in/products/tulsi-leaves-powder-ocimum-sanctum",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "For Immunity",
+        "For Immunity wellness",
+        "Herbal Powders",
+        "immunity",
+        "immunity health",
+        "Immunity Wellness",
+        "Less than Rs.200",
+        "tulsicappow",
+        "wellness"
+      ],
+      "priceFrom": 330
+    },
+    {
+      "id": 4601118162988,
+      "title": "Passiflora Herb Powder ( Passiflora Foetida )",
+      "handle": "passiflora-herb-powder-passiflora-foetida",
+      "url": "https://bixabotanical.in/products/passiflora-herb-powder-passiflora-foetida",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Powders",
+        "Mental",
+        "Mental Wellness",
+        "newsale",
+        "wellness"
+      ],
+      "priceFrom": 380
+    },
+    {
+      "id": 4601049022508,
+      "title": "Kaunch Beej Seeds Powder ( Mucuna Pruriens )",
+      "handle": "kaunch-beej-powder-mucuna-pruriens",
+      "url": "https://bixabotanical.in/products/kaunch-beej-powder-mucuna-pruriens",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "50% sale",
+        "Between Rs.200 - Rs.500",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "Nerve health",
+        "Nerve Wellness",
+        "newlabel",
+        "wellness"
+      ],
+      "priceFrom": 330
+    },
+    {
+      "id": 4601048563756,
+      "title": "Moringa Leaves Powder ( Moringa Oleifera )",
+      "handle": "moringa-leaves-powder-moringa-oleifera",
+      "url": "https://bixabotanical.in/products/moringa-leaves-powder-moringa-oleifera",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "50% sale",
+        "Between Rs.200 - Rs.500",
+        "Fitness nutrition",
+        "General & Nutritional",
+        "Heart",
+        "heart health",
+        "Heart Wellness",
+        "Herbal Powders",
+        "Immunity Wellness",
+        "Nutritional",
+        "Nutritional health",
+        "Nutritional Wellness",
+        "wellness"
+      ],
+      "priceFrom": 460
+    },
+    {
+      "id": 4601033326636,
+      "title": "Noni Fruit Powder ( Morinda Tinctoria )",
+      "handle": "noni-fruit-powder-morinda-tinctoria",
+      "url": "https://bixabotanical.in/products/noni-fruit-powder-morinda-tinctoria",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "50% sale",
+        "Between Rs.200 - Rs.500",
+        "General & Nutritional",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "Nutritional",
+        "Nutritional health",
+        "Nutritional Wellness",
+        "wellness"
+      ],
+      "priceFrom": 410
+    },
+    {
+      "id": 4601033031724,
+      "title": "Karela Fruit Powder ( Momordica Charantian )",
+      "handle": "karela-powder-momordica-charantia",
+      "url": "https://bixabotanical.in/products/karela-powder-momordica-charantia",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Blood Wellness",
+        "Diabetic Wellness",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "newsale",
+        "wellness"
+      ],
+      "priceFrom": 330
+    },
+    {
+      "id": 4601016057900,
+      "title": "Peppermint Leaves Powder ( Mentha Piperita )",
+      "handle": "peppermint-leaves-powder-mentha-piperita",
+      "url": "https://bixabotanical.in/products/peppermint-leaves-powder-mentha-piperita",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "50% sale",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Powders",
+        "wellness"
+      ],
+      "priceFrom": 330
+    },
+    {
+      "id": 4600997969964,
+      "title": "Lavender Flower Powder  Lavandula Augustifolia",
+      "handle": "lavender-flower-powder-lavandula-augustifolia",
+      "url": "https://bixabotanical.in/products/lavender-flower-powder-lavandula-augustifolia",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Powders",
+        "Nerve health",
+        "Nerve Wellness",
+        "wellness"
+      ],
+      "priceFrom": 565
+    },
+    {
+      "id": 4600997773356,
+      "title": "Banaba Leaves Powder ( Lagerstroemia Speciosa )",
+      "handle": "banaba-leaves-powder-lagerstroemia-speciosa",
+      "url": "https://bixabotanical.in/products/banaba-leaves-powder-lagerstroemia-speciosa",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Diabetic",
+        "Diabetic health",
+        "Diabetic Wellness",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "newsale",
+        "wellness"
+      ],
+      "priceFrom": 286
+    },
+    {
+      "id": 4600984371244,
+      "title": "Hibiscus Flower Powder ( Hibiscus Sabdariffa )",
+      "handle": "hibiscus-flower-powder-hibiscus-sabdariffa",
+      "url": "https://bixabotanical.in/products/hibiscus-flower-powder-hibiscus-sabdariffa",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "50% sale",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "hair",
+        "Hair Wellness",
+        "Herbal Powders",
+        "wellness"
+      ],
+      "priceFrom": 430
+    },
+    {
+      "id": 4600969134124,
+      "title": "Anantmool  Root Powder ( Hemidesmus Indicus )",
+      "handle": "anantmool-powder-hemidesmus-indicus",
+      "url": "https://bixabotanical.in/products/anantmool-powder-hemidesmus-indicus",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "200 gm",
+        "25 kg",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Powders",
+        "Skin",
+        "Skin Wellness",
+        "wellness"
+      ],
+      "priceFrom": 674
+    },
+    {
+      "id": 4600934301740,
+      "title": "Gurmar Leaves Powder ( Gymnema Sylvestre )",
+      "handle": "gurmar-leaves-powder-gymnema-sylvestre",
+      "url": "https://bixabotanical.in/products/gurmar-leaves-powder-gymnema-sylvestre",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "Diabetic",
+        "Diabetic health",
+        "Diabetic Wellness",
+        "Herbal Powders",
+        "newlabel",
+        "newsale",
+        "wellness"
+      ],
+      "priceFrom": 380
+    },
+    {
+      "id": 4600922374188,
+      "title": "Mulethi Root Powder ( Licorice Powder )",
+      "handle": "mulethi-root-powder-glycyrrhiza-glabra",
+      "url": "https://bixabotanical.in/products/mulethi-root-powder-glycyrrhiza-glabra",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "Digestive",
+        "Digestive health",
+        "Digestive Wellness",
+        "Herbal Powders",
+        "Immunity Wellness",
+        "newlabel",
+        "Respiratory",
+        "Respiratory health",
+        "wellness"
+      ],
+      "priceFrom": 330
+    },
+    {
+      "id": 4600871944236,
+      "title": "Trikatu Root & Fruits Powder ( Ginger + Kalimiri + Pippali )",
+      "handle": "trikatu-root-fruits-powder-ginger-kalimir-pippali",
+      "url": "https://bixabotanical.in/products/trikatu-root-fruits-powder-ginger-kalimir-pippali",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "200 gm",
+        "25 kg",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Powders",
+        "weight management",
+        "Weight Wellness",
+        "wellness"
+      ],
+      "priceFrom": 575
+    },
+    {
+      "id": 4600868929580,
+      "title": "Tongkat Ali Root Powder ( Eurycoma longifolia )",
+      "handle": "tongkat-ali-root-powder-eurycoma-longifolia",
+      "url": "https://bixabotanical.in/products/tongkat-ali-root-powder-eurycoma-longifolia",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "Fitness nutrition",
+        "Herbal Powders",
+        "newlabel",
+        "wellness"
+      ],
+      "priceFrom": 480
+    },
+    {
+      "id": 4600852480044,
+      "title": "Jamun Seed Powder ( Eugenia Jambolana )",
+      "handle": "jamun-seed-powder-eugenia-jambolana",
+      "url": "https://bixabotanical.in/products/jamun-seed-powder-eugenia-jambolana",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Diabetic",
+        "Diabetic health",
+        "Diabetic Wellness",
+        "For Diabetic health",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "wellness"
+      ],
+      "priceFrom": 330
+    },
+    {
+      "id": 4600842158124,
+      "title": "Amla Fruit Powder ( Emblica Officinalis )",
+      "handle": "amla-fruit-powder-emblica-officinalis",
+      "url": "https://bixabotanical.in/products/amla-fruit-powder-emblica-officinalis",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "hair",
+        "Hair Wellness",
+        "Herbal Powders",
+        "Nutritional Wellness",
+        "wellness"
+      ],
+      "priceFrom": 335
+    },
+    {
+      "id": 4600830361644,
+      "title": "Bhringaraj Herb Powder ( Eclipta Alba )",
+      "handle": "bhringaraj-herb-powder-eclipta-alba",
+      "url": "https://bixabotanical.in/products/bhringaraj-herb-powder-eclipta-alba",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "hair",
+        "Hair Wellness",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "wellness"
+      ],
+      "priceFrom": 335
+    },
+    {
+      "id": 4600818532396,
+      "title": "Lemongrass Leaves Powder ( Cymbopogon Citratus )",
+      "handle": "lemongrass-leaves-powder-cymbopogon-citratus",
+      "url": "https://bixabotanical.in/products/lemongrass-leaves-powder-cymbopogon-citratus",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "50% sale",
+        "Between Rs.200 - Rs.500",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "wellness"
+      ],
+      "priceFrom": 285
+    },
+    {
+      "id": 4600394121260,
+      "title": "Coleus Root Powder ( Coleus Forskohlii )",
+      "handle": "coleus-root-powder-coleus-forskohlii",
+      "url": "https://bixabotanical.in/products/coleus-root-powder-coleus-forskohlii",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "Heart Wellness",
+        "Herbal Powders",
+        "Weight Wellness",
+        "wellness"
+      ],
+      "priceFrom": 461
+    },
+    {
+      "id": 4600362827820,
+      "title": "Green Coffee Beans Powder ( Coffea Robusta )",
+      "handle": "green-coffee-beans-powder-coffea-robusta",
+      "url": "https://bixabotanical.in/products/green-coffee-beans-powder-coffea-robusta",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Powders",
+        "Weight Wellness",
+        "wellness"
+      ],
+      "priceFrom": 430
+    },
+    {
+      "id": 4600348344364,
+      "title": "Lime Peel Powder ( Citrus Aurantifolia )",
+      "handle": "lime-peel-powder-citrus-aurantifolia",
+      "url": "https://bixabotanical.in/products/lime-peel-powder-citrus-aurantifolia",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "50% sale",
+        "Between Rs.200 - Rs.500",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "newlabel",
+        "wellness"
+      ],
+      "priceFrom": 330
+    },
+    {
+      "id": 4600346640428,
+      "title": "Hadjod Stem Powder ( Cissus Quadrangularis )",
+      "handle": "hadjod-powder-cissus-quadrangularis",
+      "url": "https://bixabotanical.in/products/hadjod-powder-cissus-quadrangularis",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Herbal Powders",
+        "Joint & Tissue health",
+        "Joint health",
+        "Joint Wellness",
+        "Less than Rs.200",
+        "newlabel",
+        "wellness"
+      ],
+      "priceFrom": 410
+    },
+    {
+      "id": 4600319770668,
+      "title": "Safed Musli Root Powder  (Chlorophytum Borivilianum)",
+      "handle": "safed-musli-root-powder-chlorophytum-borivilianum",
+      "url": "https://bixabotanical.in/products/safed-musli-root-powder-chlorophytum-borivilianum",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "200 gm",
+        "25 kg",
+        "Fitness nutrition",
+        "Herbal Powders",
+        "wellness"
+      ],
+      "priceFrom": 1190
+    },
+    {
+      "id": 4600302567468,
+      "title": "Gotukola Herb Powder ( Centella Asiatica )",
+      "handle": "brahmi-powder-centella-asiatica",
+      "url": "https://bixabotanical.in/products/brahmi-powder-centella-asiatica",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "wellness"
+      ],
+      "priceFrom": 330
+    },
+    {
+      "id": 4600301715500,
+      "title": "Ambehaldi Root Powder ( Curcuma Amada )",
+      "handle": "ambehaldi-powder-curcuma-amada",
+      "url": "https://bixabotanical.in/products/ambehaldi-powder-curcuma-amada",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "50% sale",
+        "Between Rs.200 - Rs.500",
+        "Blood Wellness",
+        "Herbal Powders",
+        "wellness"
+      ],
+      "priceFrom": 335
+    },
+    {
+      "id": 4600265605164,
+      "title": "Amaltas Pulp Powder ( Cassia Fistula )",
+      "handle": "amaltas-pulp-powder-cassia-fistula",
+      "url": "https://bixabotanical.in/products/amaltas-pulp-powder-cassia-fistula",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.500 - Rs.1000",
+        "For Skin health",
+        "Herbal Powders",
+        "Skin",
+        "Skin Wellness",
+        "wellness"
+      ],
+      "priceFrom": 529
+    },
+    {
+      "id": 4600265211948,
+      "title": "Senna Leaves Powder ( Cassia Angustifolia )",
+      "handle": "senna-leaves-powder-cassia-angustifolia",
+      "url": "https://bixabotanical.in/products/senna-leaves-powder-cassia-angustifolia",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Digestive Wellness",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "wellness"
+      ],
+      "priceFrom": 360
+    },
+    {
+      "id": 4599679418412,
+      "title": "Caralluma Herb Powder ( Caralluma Fimbriata )",
+      "handle": "caralluma-herb-powder-caralluma-fimbriata",
+      "url": "https://bixabotanical.in/products/caralluma-herb-powder-caralluma-fimbriata",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Powders",
+        "Top_Selling",
+        "weight management",
+        "Weight Wellness",
+        "wellness"
+      ],
+      "priceFrom": 432
+    },
+    {
+      "id": 4599646486572,
+      "title": "Papaya Leaves Powder ( Carica Papaya )",
+      "handle": "papaya-leaves-powder-carica-papaya",
+      "url": "https://bixabotanical.in/products/papaya-leaves-powder-carica-papaya",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "newsale",
+        "wellness"
+      ],
+      "priceFrom": 330
+    },
+    {
+      "id": 4599576395820,
+      "title": "Sagargota Seed Powder ( Caesalpinia Bonducella )",
+      "handle": "sagargota-powder-caesalpinia-bonducella",
+      "url": "https://bixabotanical.in/products/sagargota-powder-caesalpinia-bonducella",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Powders",
+        "wellness"
+      ],
+      "priceFrom": 430
+    },
+    {
+      "id": 4599576264748,
+      "title": "Palash Flower Powder ( Butea Monosperma )",
+      "handle": "palash-flower-powder-butea-monosperma",
+      "url": "https://bixabotanical.in/products/palash-flower-powder-butea-monosperma",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Herbal Powders",
+        "kidney",
+        "Kidney Wellness",
+        "Less than Rs.200",
+        "wellness"
+      ],
+      "priceFrom": 330
+    },
+    {
+      "id": 4599536943148,
+      "title": "Punarnava Root Powder ( Boerhavia Diffusa )",
+      "handle": "punarnava-root-powder-boerhavia-diffusa",
+      "url": "https://bixabotanical.in/products/punarnava-root-powder-boerhavia-diffusa",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Heart",
+        "heart health",
+        "Heart Wellness",
+        "Herbal Powders",
+        "kidney",
+        "Kidney Wellness",
+        "wellness"
+      ],
+      "priceFrom": 330
+    },
+    {
+      "id": 4599531733036,
+      "title": "Daruharidra Root Powder ( Berberis Aristata )",
+      "handle": "daruharidra-root-powder-berberis-aristata",
+      "url": "https://bixabotanical.in/products/daruharidra-root-powder-berberis-aristata",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "50% sale",
+        "Between Rs.200 - Rs.500",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "Liver health",
+        "Liver Wellness",
+        "newlabel",
+        "wellness"
+      ],
+      "priceFrom": 412
+    },
+    {
+      "id": 4599509712940,
+      "title": "Brahmi Herb Powder ( Bacopa Monnieri )",
+      "handle": "nir-brahmi-herb-powder-bacopa-monnieri",
+      "url": "https://bixabotanical.in/products/nir-brahmi-herb-powder-bacopa-monnieri",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Brain health",
+        "Brain Wellness",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "wellness"
+      ],
+      "priceFrom": 335
+    },
+    {
+      "id": 4599495327788,
+      "title": "Neem Leaves Powder ( Azadirchta Indica )",
+      "handle": "neem-leaves-powder-azadirchta-indica",
+      "url": "https://bixabotanical.in/products/neem-leaves-powder-azadirchta-indica",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "For Immunity",
+        "For Immunity wellness",
+        "For Skin health",
+        "For Skin wellness & Blood purification",
+        "Herbal Powders",
+        "immunity",
+        "immunity health",
+        "Immunity Wellness",
+        "Less than Rs.200",
+        "neemcappow",
+        "Skin",
+        "Skin Wellness",
+        "wellness"
+      ],
+      "priceFrom": 285
+    },
+    {
+      "id": 4599477076012,
+      "title": "Shatavari Root Powder ( Asparagus Racemosus )",
+      "handle": "shatavari-root-powder-asparagus-racemosus",
+      "url": "https://bixabotanical.in/products/shatavari-root-powder-asparagus-racemosus",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "50% sale",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "For Women health",
+        "Herbal Powders",
+        "wellness",
+        "Women health",
+        "Women Wellness"
+      ],
+      "priceFrom": 430
+    },
+    {
+      "id": 4599454826540,
+      "title": "Ratanjot Powder  Arnebia Nobilis",
+      "handle": "ratanjot-powder-arnebia-nobilis",
+      "url": "https://bixabotanical.in/products/ratanjot-powder-arnebia-nobilis",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "1000+",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Powders",
+        "wellness"
+      ],
+      "priceFrom": 580
+    },
+    {
+      "id": 4599412817964,
+      "title": "Kalmegh Herb Powder ( Andrographis Paniculata )",
+      "handle": "kalmegh-herb-powder-andrographis-paniculata",
+      "url": "https://bixabotanical.in/products/kalmegh-herb-powder-andrographis-paniculata",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "wellness"
+      ],
+      "priceFrom": 360
+    },
+    {
+      "id": 4599391191084,
+      "title": "Akarkara Root Powder ( Anacyclus Pyrethrum )",
+      "handle": "akarkara-root-powder-anacyclus-pyrethrum",
+      "url": "https://bixabotanical.in/products/akarkara-root-powder-anacyclus-pyrethrum",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "Fitness nutrition",
+        "Herbal Powders",
+        "Nerve health",
+        "Nerve Wellness",
+        "wellness"
+      ],
+      "priceFrom": 480
+    },
+    {
+      "id": 4599372677164,
+      "title": "Kulinjan Root Powder ( Alpinia Galanga )",
+      "handle": "kulinjan-root-powder-alpinia-galanga",
+      "url": "https://bixabotanical.in/products/kulinjan-root-powder-alpinia-galanga",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Between Rs.500 - Rs.1000",
+        "For respiratory health",
+        "Herbal Powders",
+        "Respiratory",
+        "Respiratory health",
+        "wellness"
+      ],
+      "priceFrom": 410
+    },
+    {
+      "id": 4599120920620,
+      "title": "Aloe vera Leaves Powder ( Aloe Barbadensis )",
+      "handle": "aloe-vera-leaves-powder-aloe-barbadensis",
+      "url": "https://bixabotanical.in/products/aloe-vera-leaves-powder-aloe-barbadensis",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "50% sale",
+        "Between Rs.200 - Rs.500",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "Liver health",
+        "Liver Wellness",
+        "Skin Wellness",
+        "wellness",
+        "Women health",
+        "Women Wellness"
+      ],
+      "priceFrom": 286
+    },
+    {
+      "id": 4592952573996,
+      "title": "Apamarga Herb Powder ( Achyranthes Aspera )",
+      "handle": "apamarga-herb-powder-achyranthes-aspera",
+      "url": "https://bixabotanical.in/products/apamarga-herb-powder-achyranthes-aspera",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Herbal Powders",
+        "kidney",
+        "Kidney Wellness",
+        "Less than Rs.200",
+        "newlabel",
+        "wellness"
+      ],
+      "priceFrom": 295
+    },
+    {
+      "id": 4592952311852,
+      "title": "Vacha Root Powder ( Acorus Calamus )",
+      "handle": "vacha-root-powder-acorus-calamus",
+      "url": "https://bixabotanical.in/products/vacha-root-powder-acorus-calamus",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "For respiratory health",
+        "Herbal Powders",
+        "Respiratory",
+        "Respiratory health",
+        "wellness"
+      ],
+      "priceFrom": 410
+    },
+    {
+      "id": 4592952049708,
+      "title": "Vasaka Leaves Powder ( Adhatoda Vasaka )",
+      "handle": "vasaka-leaves-powder-adhatoda-vasaka",
+      "url": "https://bixabotanical.in/products/vasaka-leaves-powder-adhatoda-vasaka",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "For respiratory health",
+        "Herbal Powders",
+        "Less than Rs.200",
+        "Respiratory",
+        "Respiratory health",
+        "wellness"
+      ],
+      "priceFrom": 360
+    },
+    {
+      "id": 4592951656492,
+      "title": "Bael Fruit Powder ( Aegle Marmelos )",
+      "handle": "bael-fruit-powder-aegle-marmelos",
+      "url": "https://bixabotanical.in/products/bael-fruit-powder-aegle-marmelos",
+      "productType": "Herbal Powder",
+      "tags": [
+        "1 kg",
+        "200 gm",
+        "25 kg",
+        "Between Rs.200 - Rs.500",
+        "Digestive",
+        "Digestive health",
+        "Digestive Wellness",
+        "Herbal Powders",
+        "newlabel",
+        "wellness"
+      ],
+      "priceFrom": 295
+    }
+  ],
+  "capsules": [
+    {
+      "id": 4592960438316,
+      "title": "Triphala Extract 60 Veg Capsules (450mg) 40% Tannins",
+      "handle": "triphala-extract-40-tannins-60-veg-capsules-450mg",
+      "url": "https://bixabotanical.in/products/triphala-extract-40-tannins-60-veg-capsules-450mg",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000+",
+        "300 Capsules",
+        "50% sale",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.200 - Rs.500",
+        "Digestive",
+        "Digestive health",
+        "Digestive Wellness",
+        "For Digestive health",
+        "Herbal Capsules",
+        "Under $100",
+        "wellness"
+      ],
+      "priceFrom": 458
+    },
+    {
+      "id": 4592952737836,
+      "title": "Indian Senna Extract 60 Veg Capsules (450mg) 20% Sennoside",
+      "handle": "indian-senna-extract-10-sennoside-60-veg-capsules-450mg",
+      "url": "https://bixabotanical.in/products/indian-senna-extract-10-sennoside-60-veg-capsules-450mg",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000 Capsules",
+        "1000+",
+        "300 Capsules",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.200 - Rs.500",
+        "Digestive Wellness",
+        "Herbal Capsules",
+        "Under $100",
+        "wellness"
+      ],
+      "priceFrom": 458
+    },
+    {
+      "id": 4592962207788,
+      "title": "Arjuna Extract 60 Veg Capsules (450mg) 40% Tannins",
+      "handle": "terminalia-arjuna-extract-40-tannins-60-veg-capsules-450mg",
+      "url": "https://bixabotanical.in/products/terminalia-arjuna-extract-40-tannins-60-veg-capsules-450mg",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000+",
+        "300 Capsules",
+        "50% sale",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.500 - Rs.1000",
+        "Heart",
+        "heart health",
+        "Heart Wellness",
+        "Herbal Capsules",
+        "newsale",
+        "Under $100",
+        "wellness"
+      ],
+      "priceFrom": 525
+    },
+    {
+      "id": 4592961945644,
+      "title": "Gymnema / Gudmar Extract 60 Veg Capsules (450mg) 25% Gymnemic acids",
+      "handle": "gymnema-extract-25-gymnemic-acids-60-veg-capsules-450mg",
+      "url": "https://bixabotanical.in/products/gymnema-extract-25-gymnemic-acids-60-veg-capsules-450mg",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000 Capsules",
+        "1000+",
+        "300 Capsules",
+        "50% sale",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.500 - Rs.1000",
+        "Diabetic",
+        "Diabetic health",
+        "Diabetic Wellness",
+        "Herbal Capsules",
+        "newsale",
+        "Under $100",
+        "wellness"
+      ],
+      "priceFrom": 525
+    },
+    {
+      "id": 4592961552428,
+      "title": "Bitter melon / Karela Extract 60 Veg Capsules (450mg) 5% Bitters",
+      "handle": "bitter-melon-extract-5-bitters-60-veg-capsules-450mg",
+      "url": "https://bixabotanical.in/products/bitter-melon-extract-5-bitters-60-veg-capsules-450mg",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000+",
+        "300 Capsules",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.500 - Rs.1000",
+        "Blood Wellness",
+        "Herbal Capsules",
+        "Under $100",
+        "wellness"
+      ],
+      "priceFrom": 499
+    },
+    {
+      "id": 4592961224748,
+      "title": "Papaya Leaves Extract 60 Veg Capsules (450mg)",
+      "handle": "papaya-leaf-extract-60-veg-capsules-450mg",
+      "url": "https://bixabotanical.in/products/papaya-leaf-extract-60-veg-capsules-450mg",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000+",
+        "300 Capsules",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.500 - Rs.1000",
+        "Blood Wellness",
+        "Digestive Wellness",
+        "Herbal Capsules",
+        "Under $100",
+        "wellness"
+      ],
+      "priceFrom": 499
+    },
+    {
+      "id": 4592960962604,
+      "title": "Caralluma Extract 60 Veg Capsules (450mg) 30% Pregnane Glycosides",
+      "handle": "caralluma-extract-60-veg-capsules-450mg",
+      "url": "https://bixabotanical.in/products/caralluma-extract-60-veg-capsules-450mg",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000 Capsules",
+        "1000+",
+        "300 Capsules",
+        "50% sale",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Capsules",
+        "Under $100",
+        "weight management",
+        "Weight Wellness",
+        "wellness"
+      ],
+      "priceFrom": 525
+    },
+    {
+      "id": 4592960045100,
+      "title": "Licorice Root / Mulethi extract 60 Veg Capsules (450mg) 25% Glycyrrhizin",
+      "handle": "licorice-root-extract-25-glycyrrhizin-60-veg-capsules-450mg",
+      "url": "https://bixabotanical.in/products/licorice-root-extract-25-glycyrrhizin-60-veg-capsules-450mg",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000+",
+        "300 Capsules",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.500 - Rs.1000",
+        "Digestive",
+        "Digestive health",
+        "Digestive Wellness",
+        "For Digestive health",
+        "For respiratory health",
+        "Herbal Capsules",
+        "Respiratory",
+        "Respiratory health",
+        "Under $100",
+        "wellness"
+      ],
+      "priceFrom": 499
+    },
+    {
+      "id": 4592959717420,
+      "title": "Mucuna / Kaunch beej Extract 60 Veg Capsules (450mg) 15% L-Dopa by HPLC",
+      "handle": "mucuna-pruriens-15-l-dopa-extract-60-veg-capsules-450mg",
+      "url": "https://bixabotanical.in/products/mucuna-pruriens-15-l-dopa-extract-60-veg-capsules-450mg",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000+",
+        "300 Capsules",
+        "50% sale",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Capsules",
+        "Nerve health",
+        "Nerve Wellness",
+        "Under $100",
+        "wellness"
+      ],
+      "priceFrom": 499
+    },
+    {
+      "id": 4592959324204,
+      "title": "Gokhru / Tribulus Extract 60 Veg Capsules (450mg) 40% Saponins",
+      "handle": "tribulus-terrestris-extract-40-saponins-60-veg-capsules-450mg",
+      "url": "https://bixabotanical.in/products/tribulus-terrestris-extract-40-saponins-60-veg-capsules-450mg",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000+",
+        "300 Capsules",
+        "50% sale",
+        "60 Capsule",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Capsules",
+        "kidney",
+        "Kidney Wellness",
+        "newsale",
+        "Under $100",
+        "wellness"
+      ],
+      "priceFrom": 525
+    },
+    {
+      "id": 4592958963756,
+      "title": "Cissus / Hadjod Extract 60 Veg Capsules (450mg)  2.5% 3-keto steroids",
+      "handle": "cissus-extract-3-keto-2-5-steroids-60-veg-capsules-450mg",
+      "url": "https://bixabotanical.in/products/cissus-extract-3-keto-2-5-steroids-60-veg-capsules-450mg",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000 Capsules",
+        "1000+",
+        "300 Capsules",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Capsules",
+        "Joint & Tissue health",
+        "Joint health",
+        "Joint Wellness",
+        "Top_Selling",
+        "Under $100"
+      ],
+      "priceFrom": 525
+    },
+    {
+      "id": 4592958144556,
+      "title": "Andrographis /  Kalmegh Extract 60 Veg Capsules (450mg) 20% Andrographolides by HPLC",
+      "handle": "andrographis-kalmegh-extract-20-andrographolide-450mg-veg-capsules",
+      "url": "https://bixabotanical.in/products/andrographis-kalmegh-extract-20-andrographolide-450mg-veg-capsules",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000+",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Capsules",
+        "Liver health",
+        "Liver Wellness",
+        "Under $100",
+        "wellness"
+      ],
+      "priceFrom": 525
+    },
+    {
+      "id": 4592957423660,
+      "title": "Giloy Extract 60 Veg Capsules (450mg) 2.5% Bitters  Tinospora cordifolia ( Guduchi )",
+      "handle": "guduchi-extract-2-5-bitters-60-veg-capsules-450mg",
+      "url": "https://bixabotanical.in/products/guduchi-extract-2-5-bitters-60-veg-capsules-450mg",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000 Capsules",
+        "1000+",
+        "300 Capsules",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.500 - Rs.1000",
+        "For Immunity",
+        "For Immunity wellness",
+        "guduchicappow",
+        "Herbal Capsules",
+        "immunity",
+        "immunity health",
+        "Immunity Wellness",
+        "Top_Selling",
+        "Under $100",
+        "wellness"
+      ],
+      "priceFrom": 525
+    },
+    {
+      "id": 4592956899372,
+      "title": "Ashwagandha Extract 60 Veg Capsules (450mg) 2.5% Withanolides",
+      "handle": "ashwagandha-extract-2-5-withanolide-450mg-veg-capsules",
+      "url": "https://bixabotanical.in/products/ashwagandha-extract-2-5-withanolide-450mg-veg-capsules",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000+",
+        "300 Capsules",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.500 - Rs.1000",
+        "Fitness nutrition",
+        "Herbal Capsules",
+        "Immunity Wellness",
+        "Joint & Tissue health",
+        "Joint health",
+        "Joint Wellness",
+        "Mental",
+        "Mental Wellness",
+        "Top_Selling",
+        "Under $100",
+        "wellness"
+      ],
+      "priceFrom": 525
+    },
+    {
+      "id": 4592956604460,
+      "title": "Boswellia Serrata / Shallaki Extract 60 Veg Capsules (450mg) 65% Boswellic acid",
+      "handle": "boswellia-serrata-extract-65-boswellic-acid-60-veg-capsules-450mg",
+      "url": "https://bixabotanical.in/products/boswellia-serrata-extract-65-boswellic-acid-60-veg-capsules-450mg",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000 Capsules",
+        "1000+",
+        "300 Capsules",
+        "50% sale",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Capsules",
+        "Joint & Tissue health",
+        "Joint health",
+        "Joint Wellness",
+        "Top_Selling",
+        "Under $100",
+        "wellness"
+      ],
+      "priceFrom": 552
+    },
+    {
+      "id": 4592956309548,
+      "title": "Shilajit Extract Veg Capsules (450mg)",
+      "handle": "shilajit-40-fulvic-acid-capsules",
+      "url": "https://bixabotanical.in/products/shilajit-40-fulvic-acid-capsules",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000+",
+        "300 Capsules",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.500 - Rs.1000",
+        "Fitness nutrition",
+        "Herbal Capsules",
+        "Nutritional",
+        "Nutritional health",
+        "Nutritional Wellness",
+        "Under $100",
+        "wellness"
+      ],
+      "priceFrom": 599
+    },
+    {
+      "id": 4592956080172,
+      "title": "Moringa / Shigru Extract 60 Veg Capsules (450mg) 1% Alkaloids",
+      "handle": "moringa-extract-1-alkaloids-60-veg-capsules-450mg",
+      "url": "https://bixabotanical.in/products/moringa-extract-1-alkaloids-60-veg-capsules-450mg",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000+",
+        "300 Capsules",
+        "50% sale",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.500 - Rs.1000",
+        "Fitness nutrition",
+        "General & Nutritional",
+        "Heart",
+        "heart health",
+        "Heart Wellness",
+        "Herbal Capsules",
+        "Immunity Wellness",
+        "Nutritional",
+        "Nutritional health",
+        "Nutritional Wellness",
+        "Top_Selling",
+        "Under $100",
+        "wellness"
+      ],
+      "priceFrom": 499
+    },
+    {
+      "id": 4592955752492,
+      "title": "Gotu Kola / Mandukparni / Centella Asiatica Extract 60 Veg Capsules (450mg) 30% Saponins",
+      "handle": "gotu-kola-extract-30-saponins-60-veg-capsules-450mg",
+      "url": "https://bixabotanical.in/products/gotu-kola-extract-30-saponins-60-veg-capsules-450mg",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000 Capsules",
+        "1000+",
+        "300 Capsules",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.500 - Rs.1000",
+        "Brain health",
+        "Brain Wellness",
+        "Herbal Capsules",
+        "Mental",
+        "Mental Wellness",
+        "newsale",
+        "Under $100",
+        "wellness"
+      ],
+      "priceFrom": 525
+    },
+    {
+      "id": 4592955293740,
+      "title": "Jamun Extract 60 Veg Capsules (450mg) 5% Bitters",
+      "handle": "jamun-extract-5-bitters-60-veg-capsules-450mg",
+      "url": "https://bixabotanical.in/products/jamun-extract-5-bitters-60-veg-capsules-450mg",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000+",
+        "300 Capsules",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.500 - Rs.1000",
+        "Diabetic",
+        "Diabetic health",
+        "Diabetic Wellness",
+        "For Diabetic health",
+        "Herbal Capsules",
+        "Under $100",
+        "wellness"
+      ],
+      "priceFrom": 510
+    },
+    {
+      "id": 4592954933292,
+      "title": "Green Coffee Bean Extract 60 Veg Capsules (450mg)",
+      "handle": "green-coffee-bean-extract-50-chlorogenic-acid-60-veg-capsules-450mg",
+      "url": "https://bixabotanical.in/products/green-coffee-bean-extract-50-chlorogenic-acid-60-veg-capsules-450mg",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000 Capsules",
+        "1000+",
+        "300 Capsules",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Capsules",
+        "Under $100",
+        "weight management",
+        "Weight Wellness",
+        "wellness"
+      ],
+      "priceFrom": 599
+    },
+    {
+      "id": 4592954507308,
+      "title": "Guggul /Commiphora mukul Extract 60 Veg Capsules (450mg) 2.5% Guggulsterones",
+      "handle": "guggul-extract-guggulsterones-2-5-hplc-60-veg-capsules-450mg",
+      "url": "https://bixabotanical.in/products/guggul-extract-guggulsterones-2-5-hplc-60-veg-capsules-450mg",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000 Capsules",
+        "1000+",
+        "300 Capsules",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.500 - Rs.1000",
+        "Heart",
+        "heart health",
+        "Heart Wellness",
+        "Herbal Capsules",
+        "Joint & Tissue health",
+        "Joint health",
+        "Joint Wellness",
+        "newsale",
+        "Under $100",
+        "wellness"
+      ],
+      "priceFrom": 710
+    },
+    {
+      "id": 4592953589804,
+      "title": "Neem Leaf Extract 60 Veg Capsules (450mg) 3% Bitters",
+      "handle": "neem-leaf-extract-3-bitters-60-veg-capsules-450mg",
+      "url": "https://bixabotanical.in/products/neem-leaf-extract-3-bitters-60-veg-capsules-450mg",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000+",
+        "300 Capsules",
+        "50% sale",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.200 - Rs.500",
+        "For Immunity",
+        "For Immunity wellness",
+        "For Skin health",
+        "Herbal Capsules",
+        "immunity",
+        "immunity health",
+        "Immunity Wellness",
+        "neemcappow",
+        "newsale",
+        "Skin",
+        "Skin Wellness",
+        "Under $100",
+        "wellness"
+      ],
+      "priceFrom": 458
+    },
+    {
+      "id": 4592952901676,
+      "title": "Safed Musli Extract 60 Veg Capsules (450mg) 30% Saponin",
+      "handle": "safed-musli-extract-30-saponin-60-veg-capsules-450mg",
+      "url": "https://bixabotanical.in/products/safed-musli-extract-30-saponin-60-veg-capsules-450mg",
+      "productType": "Capsules",
+      "tags": [
+        "$13 - $50",
+        "1000+",
+        "300 Capsules",
+        "60 Capsules",
+        "600 Capsules",
+        "Above $125",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Capsules",
+        "Under $100",
+        "wellness"
+      ],
+      "priceFrom": 499
+    },
+    {
+      "id": 4592924491820,
+      "title": "DIABIXA 60 Veg Capsules (450mg) Supports Low Blood Sugar",
+      "handle": "diabixa",
+      "url": "https://bixabotanical.in/products/diabixa",
+      "productType": "Capsules",
+      "tags": [
+        "1000+",
+        "300 Capsules",
+        "50% sale",
+        "60 Capsules",
+        "600 Capsules",
+        "Between Rs.500 - Rs.1000",
+        "Diabetic",
+        "Diabetic health",
+        "Diabetic Wellness",
+        "For Diabetic health",
+        "Herbal Capsules",
+        "wellness"
+      ],
+      "priceFrom": 499
+    },
+    {
+      "id": 4592924262444,
+      "title": "LIVERIX 60 Veg Capsules (450mg) Supports Liver Wellbeing",
+      "handle": "liverix",
+      "url": "https://bixabotanical.in/products/liverix",
+      "productType": "Capsules",
+      "tags": [
+        "1000+",
+        "300 Capsules",
+        "50% sale",
+        "60 Capsules",
+        "600 Capsules",
+        "Between Rs.500 - Rs.1000",
+        "Herbal Capsules",
+        "Liver health",
+        "Liver Wellness",
+        "wellness"
+      ],
+      "priceFrom": 499
+    },
+    {
+      "id": 4592923672620,
+      "title": "CARDIBI 60 Veg Capsules (450mg) Supports Cardiac Wellbeing",
+      "handle": "cardibi",
+      "url": "https://bixabotanical.in/products/cardibi",
+      "productType": "Capsules",
+      "tags": [
+        "1000+",
+        "300 Capsules",
+        "50% sale",
+        "60 Capsules",
+        "600 Capsules",
+        "Between Rs.500 - Rs.1000",
+        "Heart",
+        "heart health",
+        "Heart Wellness",
+        "Herbal Capsules",
+        "newsale",
+        "wellness"
+      ],
+      "priceFrom": 499
+    },
+    {
+      "id": 4592922066988,
+      "title": "TURMERIC FORTE - Curcumin Capsules with Organic Pepper & Turmeric",
+      "handle": "turmeric-forte",
+      "url": "https://bixabotanical.in/products/turmeric-forte",
+      "productType": "Capsules",
+      "tags": [
+        "1000+",
+        "300 Capsules",
+        "60 Capsules",
+        "600 Capsules",
+        "Between Rs.500 - Rs.1000",
+        "For Immunity",
+        "For Immunity wellness",
+        "Herbal Capsules",
+        "immunity",
+        "immunity health",
+        "Immunity Wellness"
+      ],
+      "priceFrom": 699
+    }
+  ],
+  "combos": [
+    {
+      "id": 10234826064155,
+      "title": "Complete Hair Care Pack | Bhringraj Powder + Amla Powder + Rosemary Leaves | Combo",
+      "handle": "complete-hair-care-pack-bhringraj-powder-amla-powder-rosemary-leaves-combo",
+      "url": "https://bixabotanical.in/products/complete-hair-care-pack-bhringraj-powder-amla-powder-rosemary-leaves-combo",
+      "productType": null,
+      "tags": [
+        "combo",
+        "Hair Wellness",
+        "Herbal Powders"
+      ],
+      "priceFrom": 889
+    },
+    {
+      "id": 10234836746523,
+      "title": "Scalp Health & Hair Strength Ritual | Neem + Amla + Rosemary Leaves | Combo",
+      "handle": "scalp-health-hair-strength-ritual-neem-amla-rosemary-leaves-combo",
+      "url": "https://bixabotanical.in/products/scalp-health-hair-strength-ritual-neem-amla-rosemary-leaves-combo",
+      "productType": null,
+      "tags": [
+        "combo",
+        "Hair Wellness",
+        "Herbal Powders"
+      ],
+      "priceFrom": 845
+    },
+    {
+      "id": 10248755806491,
+      "title": "Smooth & Shiny Hair Ritual | Hibiscus + Amla + Aloe Vera | Combo",
+      "handle": "smooth-shiny-hair-ritual-hibiscus-amla-aloe-vera-combo",
+      "url": "https://bixabotanical.in/products/smooth-shiny-hair-ritual-hibiscus-amla-aloe-vera-combo",
+      "productType": null,
+      "tags": [
+        "combo",
+        "Hair Wellness",
+        "Herbal Powders"
+      ],
+      "priceFrom": 1029
+    },
+    {
+      "id": 10244767023387,
+      "title": "Daily Fitness Nutrition Pack | Moringa Powder + Shilajit Resin | Combo",
+      "handle": "daily-fitness-nutrition-pack-moringa-powder-shilajit-resin-combo",
+      "url": "https://bixabotanical.in/products/daily-fitness-nutrition-pack-moringa-powder-shilajit-resin-combo",
+      "productType": "Herbal Powder",
+      "tags": [
+        "combo",
+        "Fitness nutrition",
+        "Herbal Powders"
+      ],
+      "priceFrom": 1199
+    },
+    {
+      "id": 10244775543067,
+      "title": "Joint Strength & Mobility Pack | Boswellia + Hadjod Extract Capsules  | Combo",
+      "handle": "joint-strength-mobility-pack-boswellia-hadjod-extract-capsules-combo",
+      "url": "https://bixabotanical.in/products/joint-strength-mobility-pack-boswellia-hadjod-extract-capsules-combo",
+      "productType": "Herbal Powder",
+      "tags": [
+        "combo",
+        "Fitness nutrition",
+        "Herbal Powders"
+      ],
+      "priceFrom": 949
+    },
+    {
+      "id": 10234792509723,
+      "title": "Muscle Growth & Strength Pack | Safed Musli Powder + Vidarikand Powder | Combo",
+      "handle": "muscle-growth-strength-pack-safed-musli-powder-vidarikand-powder-combo",
+      "url": "https://bixabotanical.in/products/muscle-growth-strength-pack-safed-musli-powder-vidarikand-powder-combo",
+      "productType": "Herbal Powder",
+      "tags": [
+        "combo",
+        "Fitness nutrition",
+        "Herbal Powders"
+      ],
+      "priceFrom": 1458
+    },
+    {
+      "id": 10244770136347,
+      "title": "Strength and Recovery Pack | Shilajit Resin + Ashwagandha Powder  | Combo",
+      "handle": "strength-and-recovery-pack-shilajit-resin-ashwagandha-powder-combo",
+      "url": "https://bixabotanical.in/products/strength-and-recovery-pack-shilajit-resin-ashwagandha-powder-combo",
+      "productType": "Herbal Powder",
+      "tags": [
+        "combo",
+        "Fitness nutrition",
+        "Herbal Powders"
+      ],
+      "priceFrom": 1299
+    },
+    {
+      "id": 10234838745371,
+      "title": "Energy and Endurance pack | Shilajit Resin + Gokhru powder | Combo",
+      "handle": "energy-and-endurance-pack-shilajit-resin-gokhru-powder-combo",
+      "url": "https://bixabotanical.in/products/energy-and-endurance-pack-shilajit-resin-gokhru-powder-combo",
+      "productType": "Herbal Powder",
+      "tags": [
+        "combo",
+        "Fitness nutrition",
+        "Herbal Powders"
+      ],
+      "priceFrom": 1199
+    },
+    {
+      "id": 10234816758043,
+      "title": "Woman fitness wellness pack | Moringa Powder + Shatavari Powder | Combo",
+      "handle": "woman-fitness-wellness-pack-moringa-powder-shatavari-powder-combo",
+      "url": "https://bixabotanical.in/products/woman-fitness-wellness-pack-moringa-powder-shatavari-powder-combo",
+      "productType": "Herbal Powder",
+      "tags": [
+        "combo",
+        "Fitness nutrition",
+        "Herbal Powders",
+        "Women Wellness"
+      ],
+      "priceFrom": 725
+    },
+    {
+      "id": 10234815971611,
+      "title": "Muscle growth & Recovery Pack | Safed Musli Powder + Ashwagandha Powder | Combo",
+      "handle": "muscle-growth-recovery-pack-safed-musli-powder-ashwagandha-powder-combo",
+      "url": "https://bixabotanical.in/products/muscle-growth-recovery-pack-safed-musli-powder-ashwagandha-powder-combo",
+      "productType": "Herbal Powder",
+      "tags": [
+        "combo",
+        "Fitness nutrition",
+        "Herbal Powders"
+      ],
+      "priceFrom": 1549
+    },
+    {
+      "id": 10139798864155,
+      "title": "Rosemary Hair Care Kit",
+      "handle": "rosemary-hair-care-kit",
+      "url": "https://bixabotanical.in/products/rosemary-hair-care-kit",
+      "productType": null,
+      "tags": [
+        "combo",
+        "Hair Wellness"
+      ],
+      "priceFrom": 553
+    },
+    {
+      "id": 8070978568475,
+      "title": "For Weight Wellness  | Green Coffee + Triphala Powder | Combo Kit",
+      "handle": "for-weight-wellness-green-coffee-triphala-powder-combo-kit",
+      "url": "https://bixabotanical.in/products/for-weight-wellness-green-coffee-triphala-powder-combo-kit",
+      "productType": "Herbal Powder",
+      "tags": [
+        "combo",
+        "weight management",
+        "Weight Wellness"
+      ],
+      "priceFrom": 711
+    },
+    {
+      "id": 8070905987355,
+      "title": "For Liver Wellness | Kalmegh + Giloy Powder  | Combo Kit",
+      "handle": "for-liver-wellness-kalmegh-gudchi-powder-combo-kit",
+      "url": "https://bixabotanical.in/products/for-liver-wellness-kalmegh-gudchi-powder-combo-kit",
+      "productType": "Herbal Powder",
+      "tags": [
+        "combo"
+      ],
+      "priceFrom": 530
+    },
+    {
+      "id": 8070841139483,
+      "title": "High Intensity Training Pack | Ashwagandha + Tongkat Ali Powder | Combo",
+      "handle": "for-strength-and-muscles-ashwagandha-tongkat-ali-powder-combo",
+      "url": "https://bixabotanical.in/products/for-strength-and-muscles-ashwagandha-tongkat-ali-powder-combo",
+      "productType": "Herbal Powder",
+      "tags": [
+        "combo",
+        "Fitness nutrition",
+        "Herbal Powders"
+      ],
+      "priceFrom": 870
+    },
+    {
+      "id": 6050760556728,
+      "title": "FOR SUGAR METABOLISM & DIGESTION | BITTER MELON +GYMNEMA+JAMUN CAPSULES",
+      "handle": "bitter-melon-gymnema-jamun-for-sugar-metabolism-digestion",
+      "url": "https://bixabotanical.in/products/bitter-melon-gymnema-jamun-for-sugar-metabolism-digestion",
+      "productType": "Capsules",
+      "tags": [
+        "combo"
+      ],
+      "priceFrom": 1500
+    }
+  ],
+  "other": [
+    {
+      "id": 10151533183259,
+      "title": "Free Jute Bag (On Orders Above ₹1000)",
+      "handle": "free-gift-on-orders-above-1000",
+      "url": "https://bixabotanical.in/products/free-gift-on-orders-above-1000",
+      "productType": null,
+      "tags": [
+        "1 kg"
+      ],
+      "priceFrom": 0
+    },
+    {
+      "id": 10088684388635,
+      "title": "Pure Himalayan Shilajit Honey Sticks",
+      "handle": "pure-himalayan-shilajit-honey-sticks",
+      "url": "https://bixabotanical.in/products/pure-himalayan-shilajit-honey-sticks",
+      "productType": "Resin",
+      "tags": [
+        "B2B",
+        "Fitness nutrition",
+        "Shilajit",
+        "wellness"
+      ],
+      "priceFrom": 899
+    },
+    {
+      "id": 9818061144347,
+      "title": "Pure Himalayan Shilajit Resin Pump",
+      "handle": "pure-himalayan-shilajit-resin",
+      "url": "https://bixabotanical.in/products/pure-himalayan-shilajit-resin",
+      "productType": "Resin",
+      "tags": [
+        "Fitness nutrition",
+        "Shilajit",
+        "wellness"
+      ],
+      "priceFrom": 899
+    },
+    {
+      "id": 9733329060123,
+      "title": "Rosemary Essential Oil For Hair Growth | 100% Pure | Top Grade Imported Quality",
+      "handle": "bixa-botanical-100-pure-rosemary-essential-oil",
+      "url": "https://bixabotanical.in/products/bixa-botanical-100-pure-rosemary-essential-oil",
+      "productType": "Pure essential oil",
+      "tags": [
+        "Hair Wellness",
+        "pure essential oil",
+        "rosemary"
+      ],
+      "priceFrom": 545
+    },
+    {
+      "id": 6962325127352,
+      "title": "Basil Leaves Seasoning | Premium Grade Leaves From Egypt l Pizza Pasta Italian Salads Sauces and other Cooking",
+      "handle": "basil-leaves-500gm",
+      "url": "https://bixabotanical.in/products/basil-leaves-500gm",
+      "productType": "Seasoning",
+      "tags": [
+        "Seasoning Herbs"
+      ],
+      "priceFrom": 245
+    },
+    {
+      "id": 6962326831288,
+      "title": "Parsley Dry Leaves | Premium Quality Leaves From Egypt",
+      "handle": "parsley-leaves-500gm",
+      "url": "https://bixabotanical.in/products/parsley-leaves-500gm",
+      "productType": "Seasoning",
+      "tags": [
+        "Seasoning Herbs"
+      ],
+      "priceFrom": 295
+    },
+    {
+      "id": 6962322604216,
+      "title": "Thyme Dry Leaves | Premium Quality Leaves From Egypt",
+      "handle": "thyme-leaves-500gm",
+      "url": "https://bixabotanical.in/products/thyme-leaves-500gm",
+      "productType": "Seasoning",
+      "tags": [
+        "Seasoning Herbs"
+      ],
+      "priceFrom": 295
+    },
+    {
+      "id": 6962312315064,
+      "title": "Rosemary Dry Leaves | Top Grade Quality From Egypt | For Cooking Seasoning | Supports Hair Growth",
+      "handle": "rosemary-leaves-500gm",
+      "url": "https://bixabotanical.in/products/rosemary-leaves-500gm",
+      "productType": "Seasoning",
+      "tags": [
+        "Between Rs.200 - Rs.500",
+        "hair",
+        "Hair Wellness",
+        "Seasoning Herbs"
+      ],
+      "priceFrom": 245
+    }
+  ],
+  "sameProductBothFormats": [
+    {
+      "baseName": "triphala",
+      "capsules": [
+        {
+          "id": 4592960438316,
+          "title": "Triphala Extract 60 Veg Capsules (450mg) 40% Tannins",
+          "handle": "triphala-extract-40-tannins-60-veg-capsules-450mg",
+          "url": "https://bixabotanical.in/products/triphala-extract-40-tannins-60-veg-capsules-450mg",
+          "productType": "Capsules",
+          "tags": [
+            "$13 - $50",
+            "1000+",
+            "300 Capsules",
+            "50% sale",
+            "60 Capsules",
+            "600 Capsules",
+            "Above $125",
+            "Between Rs.200 - Rs.500",
+            "Digestive",
+            "Digestive health",
+            "Digestive Wellness",
+            "For Digestive health",
+            "Herbal Capsules",
+            "Under $100",
+            "wellness"
+          ],
+          "priceFrom": 458
+        }
+      ],
+      "powders": [
+        {
+          "id": 5076235321388,
+          "title": "Triphala (Amla + Haritaki + Bibhitak) dry Extract - 40% Tannins by Titration",
+          "handle": "triphala-amla-haritaki-bibhitak-dry-extract-40-tannins-by-titration",
+          "url": "https://bixabotanical.in/products/triphala-amla-haritaki-bibhitak-dry-extract-40-tannins-by-titration",
+          "productType": "Herbal Extract Powder",
+          "tags": [
+            "1 kg",
+            "1000+",
+            "25 kg",
+            "Between Rs.500 - Rs.1000",
+            "Herbal extract",
+            "wellness"
+          ],
+          "priceFrom": 1241
+        },
+        {
+          "id": 4601437814828,
+          "title": "Triphala Fruit Powder ( Amla + Haritaki + Bibhitaki )",
+          "handle": "triphala-fruit-powder-amla-haritaki-bibhitaki",
+          "url": "https://bixabotanical.in/products/triphala-fruit-powder-amla-haritaki-bibhitaki",
+          "productType": "Herbal Powder",
+          "tags": [
+            "1 kg",
+            "200 gm",
+            "25 kg",
+            "50% sale",
+            "Between Rs.200 - Rs.500",
+            "Digestive",
+            "Digestive health",
+            "Digestive Wellness",
+            "For Digestive health",
+            "Herbal Powders",
+            "Less than Rs.200",
+            "wellness"
+          ],
+          "priceFrom": 430
+        }
+      ]
+    },
+    {
+      "baseName": "indian senna",
+      "capsules": [
+        {
+          "id": 4592952737836,
+          "title": "Indian Senna Extract 60 Veg Capsules (450mg) 20% Sennoside",
+          "handle": "indian-senna-extract-10-sennoside-60-veg-capsules-450mg",
+          "url": "https://bixabotanical.in/products/indian-senna-extract-10-sennoside-60-veg-capsules-450mg",
+          "productType": "Capsules",
+          "tags": [
+            "$13 - $50",
+            "1000 Capsules",
+            "1000+",
+            "300 Capsules",
+            "60 Capsules",
+            "600 Capsules",
+            "Above $125",
+            "Between Rs.200 - Rs.500",
+            "Digestive Wellness",
+            "Herbal Capsules",
+            "Under $100",
+            "wellness"
+          ],
+          "priceFrom": 458
+        }
+      ],
+      "powders": [
+        {
+          "id": 5691171405978,
+          "title": "Indian Senna (Cassia Angustifolia) Dry Extract - 20% Sennosides by UV",
+          "handle": "indian-senna-cassia-angustifolia-dry-extract-20-sennosides-by-uv",
+          "url": "https://bixabotanical.in/products/indian-senna-cassia-angustifolia-dry-extract-20-sennosides-by-uv",
+          "productType": "Herbal Extract Powder",
+          "tags": [
+            "1 kg",
+            "25 kg",
+            "Herbal extract",
+            "wellness"
+          ],
+          "priceFrom": 2995
+        }
+      ]
+    },
+    {
+      "baseName": "arjuna",
+      "capsules": [
+        {
+          "id": 4592962207788,
+          "title": "Arjuna Extract 60 Veg Capsules (450mg) 40% Tannins",
+          "handle": "terminalia-arjuna-extract-40-tannins-60-veg-capsules-450mg",
+          "url": "https://bixabotanical.in/products/terminalia-arjuna-extract-40-tannins-60-veg-capsules-450mg",
+          "productType": "Capsules",
+          "tags": [
+            "$13 - $50",
+            "1000+",
+            "300 Capsules",
+            "50% sale",
+            "60 Capsules",
+            "600 Capsules",
+            "Above $125",
+            "Between Rs.500 - Rs.1000",
+            "Heart",
+            "heart health",
+            "Heart Wellness",
+            "Herbal Capsules",
+            "newsale",
+            "Under $100",
+            "wellness"
+          ],
+          "priceFrom": 525
+        }
+      ],
+      "powders": [
+        {
+          "id": 5691193950362,
+          "title": "Arjuna (Terminalia Arjuna) Dry Extract - 30% Tannins by Gravimetry",
+          "handle": "arjuna-terminalia-arjuna-dry-extract-40-tannins-by-gravimetry",
+          "url": "https://bixabotanical.in/products/arjuna-terminalia-arjuna-dry-extract-40-tannins-by-gravimetry",
+          "productType": "Herbal Extract Powder",
+          "tags": [
+            "1 kg",
+            "25 kg",
+            "Above $125",
+            "arjuna",
+            "Heart",
+            "Herbal extract"
+          ],
+          "priceFrom": 1545
+        },
+        {
+          "id": 4601345409068,
+          "title": "Arjuna Bark Powder ( Terminalia Arjuna )",
+          "handle": "arjuna-bark-powder-terminalia-arjuna",
+          "url": "https://bixabotanical.in/products/arjuna-bark-powder-terminalia-arjuna",
+          "productType": "Herbal Powder",
+          "tags": [
+            "1 kg",
+            "200 gm",
+            "25 kg",
+            "Between Rs.200 - Rs.500",
+            "Heart",
+            "heart health",
+            "Heart Wellness",
+            "Herbal Powders",
+            "Less than Rs.200",
+            "wellness"
+          ],
+          "priceFrom": 335
+        }
+      ]
+    },
+    {
+      "baseName": "papaya",
+      "capsules": [
+        {
+          "id": 4592961224748,
+          "title": "Papaya Leaves Extract 60 Veg Capsules (450mg)",
+          "handle": "papaya-leaf-extract-60-veg-capsules-450mg",
+          "url": "https://bixabotanical.in/products/papaya-leaf-extract-60-veg-capsules-450mg",
+          "productType": "Capsules",
+          "tags": [
+            "$13 - $50",
+            "1000+",
+            "300 Capsules",
+            "60 Capsules",
+            "600 Capsules",
+            "Above $125",
+            "Between Rs.500 - Rs.1000",
+            "Blood Wellness",
+            "Digestive Wellness",
+            "Herbal Capsules",
+            "Under $100",
+            "wellness"
+          ],
+          "priceFrom": 499
+        }
+      ],
+      "powders": [
+        {
+          "id": 5076359446572,
+          "title": "Papaya Leaf (Carica Papaya) Dry Extract  - 30% Glycosides (Saponnin) by Gravimetry",
+          "handle": "papaya-leaf-carica-papaya-dry-extract-20-glycosides-saponnin-by-gravimetry",
+          "url": "https://bixabotanical.in/products/papaya-leaf-carica-papaya-dry-extract-20-glycosides-saponnin-by-gravimetry",
+          "productType": "Herbal Extract Powder",
+          "tags": [
+            "1 kg",
+            "1000+",
+            "25 kg",
+            "Between Rs.500 - Rs.1000",
+            "Herbal extract",
+            "wellness"
+          ],
+          "priceFrom": 1895
+        },
+        {
+          "id": 4599646486572,
+          "title": "Papaya Leaves Powder ( Carica Papaya )",
+          "handle": "papaya-leaves-powder-carica-papaya",
+          "url": "https://bixabotanical.in/products/papaya-leaves-powder-carica-papaya",
+          "productType": "Herbal Powder",
+          "tags": [
+            "1 kg",
+            "200 gm",
+            "25 kg",
+            "Between Rs.200 - Rs.500",
+            "Herbal Powders",
+            "Less than Rs.200",
+            "newsale",
+            "wellness"
+          ],
+          "priceFrom": 330
+        }
+      ]
+    },
+    {
+      "baseName": "caralluma",
+      "capsules": [
+        {
+          "id": 4592960962604,
+          "title": "Caralluma Extract 60 Veg Capsules (450mg) 30% Pregnane Glycosides",
+          "handle": "caralluma-extract-60-veg-capsules-450mg",
+          "url": "https://bixabotanical.in/products/caralluma-extract-60-veg-capsules-450mg",
+          "productType": "Capsules",
+          "tags": [
+            "$13 - $50",
+            "1000 Capsules",
+            "1000+",
+            "300 Capsules",
+            "50% sale",
+            "60 Capsules",
+            "600 Capsules",
+            "Above $125",
+            "Between Rs.500 - Rs.1000",
+            "Herbal Capsules",
+            "Under $100",
+            "weight management",
+            "Weight Wellness",
+            "wellness"
+          ],
+          "priceFrom": 525
+        }
+      ],
+      "powders": [
+        {
+          "id": 5691090501786,
+          "title": "Caralluma (Caralluma Fimbriata) Dry Extract - 30% Pregnane Glycosides by Gravimetry",
+          "handle": "caralluma-caralluma-fimbriata-dry-extract-30-pregnane-glycosides-by-gravimetry",
+          "url": "https://bixabotanical.in/products/caralluma-caralluma-fimbriata-dry-extract-30-pregnane-glycosides-by-gravimetry",
+          "productType": "Herbal Extract Powder",
+          "tags": [
+            "1 kg",
+            "25 kg",
+            "Herbal extract"
+          ],
+          "priceFrom": 2345
+        },
+        {
+          "id": 4599679418412,
+          "title": "Caralluma Herb Powder ( Caralluma Fimbriata )",
+          "handle": "caralluma-herb-powder-caralluma-fimbriata",
+          "url": "https://bixabotanical.in/products/caralluma-herb-powder-caralluma-fimbriata",
+          "productType": "Herbal Powder",
+          "tags": [
+            "1 kg",
+            "200 gm",
+            "25 kg",
+            "Between Rs.200 - Rs.500",
+            "Between Rs.500 - Rs.1000",
+            "Herbal Powders",
+            "Top_Selling",
+            "weight management",
+            "Weight Wellness",
+            "wellness"
+          ],
+          "priceFrom": 432
+        }
+      ]
+    },
+    {
+      "baseName": "giloy",
+      "capsules": [
+        {
+          "id": 4592957423660,
+          "title": "Giloy Extract 60 Veg Capsules (450mg) 2.5% Bitters  Tinospora cordifolia ( Guduchi )",
+          "handle": "guduchi-extract-2-5-bitters-60-veg-capsules-450mg",
+          "url": "https://bixabotanical.in/products/guduchi-extract-2-5-bitters-60-veg-capsules-450mg",
+          "productType": "Capsules",
+          "tags": [
+            "$13 - $50",
+            "1000 Capsules",
+            "1000+",
+            "300 Capsules",
+            "60 Capsules",
+            "600 Capsules",
+            "Above $125",
+            "Between Rs.500 - Rs.1000",
+            "For Immunity",
+            "For Immunity wellness",
+            "guduchicappow",
+            "Herbal Capsules",
+            "immunity",
+            "immunity health",
+            "Immunity Wellness",
+            "Top_Selling",
+            "Under $100",
+            "wellness"
+          ],
+          "priceFrom": 525
+        }
+      ],
+      "powders": [
+        {
+          "id": 5076189544492,
+          "title": "Giloy (Guduchi /Tinospora Cordifolia) dry Extract - 2.5% Bitters by Gravimetry Guduchi",
+          "handle": "guduchi-giloy-tinospora-cordifolia-dry-extract-2-5-bitters-by-gravimetry",
+          "url": "https://bixabotanical.in/products/guduchi-giloy-tinospora-cordifolia-dry-extract-2-5-bitters-by-gravimetry",
+          "productType": "Herbal Extract Powder",
+          "tags": [
+            "1 kg",
+            "1000+",
+            "25 kg",
+            "Herbal extract"
+          ],
+          "priceFrom": 1145
+        }
+      ]
+    },
+    {
+      "baseName": "ashwagandha",
+      "capsules": [
+        {
+          "id": 4592956899372,
+          "title": "Ashwagandha Extract 60 Veg Capsules (450mg) 2.5% Withanolides",
+          "handle": "ashwagandha-extract-2-5-withanolide-450mg-veg-capsules",
+          "url": "https://bixabotanical.in/products/ashwagandha-extract-2-5-withanolide-450mg-veg-capsules",
+          "productType": "Capsules",
+          "tags": [
+            "$13 - $50",
+            "1000+",
+            "300 Capsules",
+            "60 Capsules",
+            "600 Capsules",
+            "Above $125",
+            "Between Rs.500 - Rs.1000",
+            "Fitness nutrition",
+            "Herbal Capsules",
+            "Immunity Wellness",
+            "Joint & Tissue health",
+            "Joint health",
+            "Joint Wellness",
+            "Mental",
+            "Mental Wellness",
+            "Top_Selling",
+            "Under $100",
+            "wellness"
+          ],
+          "priceFrom": 525
+        }
+      ],
+      "powders": [
+        {
+          "id": 7028000391352,
+          "title": "Ashwagandha (Withania Somnifera) Dry Extract Herb - 2.5% Total Withanolides by gravimetry",
+          "handle": "copy-of-ashwagandha-withania-somnifera-dry-extract-herb-2-5-total-withanolides-by-gravimetry",
+          "url": "https://bixabotanical.in/products/copy-of-ashwagandha-withania-somnifera-dry-extract-herb-2-5-total-withanolides-by-gravimetry",
+          "productType": "Herbal Extract Powder",
+          "tags": [
+            "1 kg",
+            "25 kg",
+            "Above $125",
+            "Ashwagandha",
+            "Herbal extract"
+          ],
+          "priceFrom": 1395
+        },
+        {
+          "id": 5076073414700,
+          "title": "Ashwagandha root  (Withania somnifera) dry Extract - 2.5% Total Withanolides by Gravimetry",
+          "handle": "ashwagandha-withania-somnifera-dry-extract-2-5-total-withanolides-by-gravimetry",
+          "url": "https://bixabotanical.in/products/ashwagandha-withania-somnifera-dry-extract-2-5-total-withanolides-by-gravimetry",
+          "productType": "Herbal Extract Powder",
+          "tags": [
+            "1 kg",
+            "1000+",
+            "25 kg",
+            "Herbal extract"
+          ],
+          "priceFrom": 7295
+        },
+        {
+          "id": 4601526091820,
+          "title": "Ashwagandha Root Powder ( Withania Somnifera)",
+          "handle": "ashwagandha-root-powder-withania-somnifera",
+          "url": "https://bixabotanical.in/products/ashwagandha-root-powder-withania-somnifera",
+          "productType": "Herbal Powder",
+          "tags": [
+            "1 kg",
+            "200 gm",
+            "25 kg",
+            "Between Rs.200 - Rs.500",
+            "Between Rs.500 - Rs.1000",
+            "Fitness nutrition",
+            "Herbal Powders",
+            "Immunity Wellness",
+            "Joint & Tissue health",
+            "Joint health",
+            "Joint Wellness",
+            "Mental",
+            "Mental Wellness",
+            "newlabel",
+            "Top_Selling",
+            "wellness"
+          ],
+          "priceFrom": 509
+        }
+      ]
+    },
+    {
+      "baseName": "shilajit",
+      "capsules": [
+        {
+          "id": 4592956309548,
+          "title": "Shilajit Extract Veg Capsules (450mg)",
+          "handle": "shilajit-40-fulvic-acid-capsules",
+          "url": "https://bixabotanical.in/products/shilajit-40-fulvic-acid-capsules",
+          "productType": "Capsules",
+          "tags": [
+            "$13 - $50",
+            "1000+",
+            "300 Capsules",
+            "60 Capsules",
+            "600 Capsules",
+            "Above $125",
+            "Between Rs.500 - Rs.1000",
+            "Fitness nutrition",
+            "Herbal Capsules",
+            "Nutritional",
+            "Nutritional health",
+            "Nutritional Wellness",
+            "Under $100",
+            "wellness"
+          ],
+          "priceFrom": 599
+        }
+      ],
+      "powders": [
+        {
+          "id": 5076033732652,
+          "title": "Shilajit (Asphaltum) Dry Extract - 40% Fulvic acid by Gravimetry",
+          "handle": "shilajit-asphaltum-dry-extract-40-fulvic-acid-by-gravimetry",
+          "url": "https://bixabotanical.in/products/shilajit-asphaltum-dry-extract-40-fulvic-acid-by-gravimetry",
+          "productType": "Herbal Extract Powder",
+          "tags": [
+            "1 kg",
+            "1000+",
+            "25 kg",
+            "Herbal extract",
+            "wellness"
+          ],
+          "priceFrom": 6619
+        }
+      ]
+    },
+    {
+      "baseName": "jamun",
+      "capsules": [
+        {
+          "id": 4592955293740,
+          "title": "Jamun Extract 60 Veg Capsules (450mg) 5% Bitters",
+          "handle": "jamun-extract-5-bitters-60-veg-capsules-450mg",
+          "url": "https://bixabotanical.in/products/jamun-extract-5-bitters-60-veg-capsules-450mg",
+          "productType": "Capsules",
+          "tags": [
+            "$13 - $50",
+            "1000+",
+            "300 Capsules",
+            "60 Capsules",
+            "600 Capsules",
+            "Above $125",
+            "Between Rs.500 - Rs.1000",
+            "Diabetic",
+            "Diabetic health",
+            "Diabetic Wellness",
+            "For Diabetic health",
+            "Herbal Capsules",
+            "Under $100",
+            "wellness"
+          ],
+          "priceFrom": 510
+        }
+      ],
+      "powders": [
+        {
+          "id": 5076276183084,
+          "title": "Jamun (Eugenia Jambolana) dry Extract - 5% Bitters by Gravimetry",
+          "handle": "jamun-eugenia-jambolana-dry-extract-2-5-bitters-by-gravimetry",
+          "url": "https://bixabotanical.in/products/jamun-eugenia-jambolana-dry-extract-2-5-bitters-by-gravimetry",
+          "productType": "Herbal Extract Powder",
+          "tags": [
+            "1 kg",
+            "1000+",
+            "25 kg",
+            "Between Rs.500 - Rs.1000",
+            "Herbal extract"
+          ],
+          "priceFrom": 2145
+        },
+        {
+          "id": 4600852480044,
+          "title": "Jamun Seed Powder ( Eugenia Jambolana )",
+          "handle": "jamun-seed-powder-eugenia-jambolana",
+          "url": "https://bixabotanical.in/products/jamun-seed-powder-eugenia-jambolana",
+          "productType": "Herbal Powder",
+          "tags": [
+            "1 kg",
+            "200 gm",
+            "25 kg",
+            "Between Rs.200 - Rs.500",
+            "Diabetic",
+            "Diabetic health",
+            "Diabetic Wellness",
+            "For Diabetic health",
+            "Herbal Powders",
+            "Less than Rs.200",
+            "wellness"
+          ],
+          "priceFrom": 330
+        }
+      ]
+    },
+    {
+      "baseName": "neem",
+      "capsules": [
+        {
+          "id": 4592953589804,
+          "title": "Neem Leaf Extract 60 Veg Capsules (450mg) 3% Bitters",
+          "handle": "neem-leaf-extract-3-bitters-60-veg-capsules-450mg",
+          "url": "https://bixabotanical.in/products/neem-leaf-extract-3-bitters-60-veg-capsules-450mg",
+          "productType": "Capsules",
+          "tags": [
+            "$13 - $50",
+            "1000+",
+            "300 Capsules",
+            "50% sale",
+            "60 Capsules",
+            "600 Capsules",
+            "Above $125",
+            "Between Rs.200 - Rs.500",
+            "For Immunity",
+            "For Immunity wellness",
+            "For Skin health",
+            "Herbal Capsules",
+            "immunity",
+            "immunity health",
+            "Immunity Wellness",
+            "neemcappow",
+            "newsale",
+            "Skin",
+            "Skin Wellness",
+            "Under $100",
+            "wellness"
+          ],
+          "priceFrom": 458
+        }
+      ],
+      "powders": [
+        {
+          "id": 5076267860012,
+          "title": "Neem (Azadirchta indica) dry Extract - 2.5% Bitters by Gravimetry",
+          "handle": "neem-azadirchta-indica-dry-extract-2-5-bitters-by-gravimetry",
+          "url": "https://bixabotanical.in/products/neem-azadirchta-indica-dry-extract-2-5-bitters-by-gravimetry",
+          "productType": "Herbal Extract Powder",
+          "tags": [
+            "1 kg",
+            "1000+",
+            "25 kg",
+            "Between Rs.500 - Rs.1000",
+            "Herbal extract",
+            "wellness"
+          ],
+          "priceFrom": 1045
+        },
+        {
+          "id": 4599495327788,
+          "title": "Neem Leaves Powder ( Azadirchta Indica )",
+          "handle": "neem-leaves-powder-azadirchta-indica",
+          "url": "https://bixabotanical.in/products/neem-leaves-powder-azadirchta-indica",
+          "productType": "Herbal Powder",
+          "tags": [
+            "1 kg",
+            "200 gm",
+            "25 kg",
+            "Between Rs.200 - Rs.500",
+            "For Immunity",
+            "For Immunity wellness",
+            "For Skin health",
+            "For Skin wellness & Blood purification",
+            "Herbal Powders",
+            "immunity",
+            "immunity health",
+            "Immunity Wellness",
+            "Less than Rs.200",
+            "neemcappow",
+            "Skin",
+            "Skin Wellness",
+            "wellness"
+          ],
+          "priceFrom": 285
+        }
+      ]
+    },
+    {
+      "baseName": "safed musli",
+      "capsules": [
+        {
+          "id": 4592952901676,
+          "title": "Safed Musli Extract 60 Veg Capsules (450mg) 30% Saponin",
+          "handle": "safed-musli-extract-30-saponin-60-veg-capsules-450mg",
+          "url": "https://bixabotanical.in/products/safed-musli-extract-30-saponin-60-veg-capsules-450mg",
+          "productType": "Capsules",
+          "tags": [
+            "$13 - $50",
+            "1000+",
+            "300 Capsules",
+            "60 Capsules",
+            "600 Capsules",
+            "Above $125",
+            "Between Rs.500 - Rs.1000",
+            "Herbal Capsules",
+            "Under $100",
+            "wellness"
+          ],
+          "priceFrom": 499
+        }
+      ],
+      "powders": [
+        {
+          "id": 5076323663916,
+          "title": "Safed Musli (Chlorophytum borivilianum) dry Extract - 30% Saponins by Gravimetry",
+          "handle": "safed-musli-chlorophytum-borivilianum-dry-extract-40-saponins-by-gravimetry",
+          "url": "https://bixabotanical.in/products/safed-musli-chlorophytum-borivilianum-dry-extract-40-saponins-by-gravimetry",
+          "productType": "Herbal Extract Powder",
+          "tags": [
+            "1 kg",
+            "1000+",
+            "25 kg",
+            "Herbal extract",
+            "wellness"
+          ],
+          "priceFrom": 4245
+        },
+        {
+          "id": 4600319770668,
+          "title": "Safed Musli Root Powder  (Chlorophytum Borivilianum)",
+          "handle": "safed-musli-root-powder-chlorophytum-borivilianum",
+          "url": "https://bixabotanical.in/products/safed-musli-root-powder-chlorophytum-borivilianum",
+          "productType": "Herbal Powder",
+          "tags": [
+            "1 kg",
+            "1000+",
+            "200 gm",
+            "25 kg",
+            "Fitness nutrition",
+            "Herbal Powders",
+            "wellness"
+          ],
+          "priceFrom": 1190
+        }
+      ]
+    }
+  ]
+}

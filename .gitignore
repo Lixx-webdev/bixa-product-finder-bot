@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*serviceAccount*.json
+*service-account*.json
+*firebase-adminsdk*.json
+
+# Build output (rebuild with `npm run build` in frontend/)
+frontend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local Claude Code settings / internal docs (kept local, not pushed)
+.claude/settings.local.json
+CLAUDE.md
+BIXA_Product_Finder_AntiGravity_Implementation.md
+
+# Internal source spreadsheets (not read at runtime)
+knowledge_base/*.xlsx

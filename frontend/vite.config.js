@@ -2,8 +2,13 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [react()],
+  // Library mode leaves process.env.* untouched, but `process` doesn't exist in the browser — without
+  // this the embed bundle throws "process is not defined" on load (React and embed.jsx both read it).
+  define: {
+    'process.env.NODE_ENV': JSON.stringify(mode)
+  },
   server: {
     port: 3000,
     proxy: {
@@ -26,4 +31,4 @@ export default defineConfig({
       formats: ['iife', 'umd', 'es']
     }
   }
-});
+}));

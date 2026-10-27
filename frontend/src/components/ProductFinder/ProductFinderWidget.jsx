@@ -122,7 +122,7 @@ const ProductFinderWidget = () => {
       {!isOpen && (
         <button
           onClick={toggleOpen}
-          className="fixed bottom-5 right-5 z-50 flex items-center gap-2 px-4 py-3 bg-bixa-darkgreen hover:bg-bixa-green text-white rounded-full shadow-md hover:shadow-lg transition-all duration-200 active:scale-95 focus:outline-none focus:ring-4 focus:ring-bixa-green/20"
+          className="fixed bottom-5 right-5 z-[2147483000] flex items-center gap-2 px-4 py-3 bg-bixa-darkgreen hover:bg-bixa-green text-white rounded-full shadow-md hover:shadow-lg transition-all duration-200 active:scale-95 focus:outline-none focus:ring-4 focus:ring-bixa-green/20"
           aria-label="Open BIXA Product Finder"
         >
           <span className="text-lg leading-none">🌿</span>
@@ -132,7 +132,7 @@ const ProductFinderWidget = () => {
 
       {isOpen && (
         <div
-          className="fixed bottom-0 right-0 sm:bottom-5 sm:right-5 z-50 w-full sm:w-[400px] h-[100dvh] sm:h-[640px] max-h-[100dvh] bg-white sm:rounded-3xl shadow-xl flex flex-col overflow-hidden border border-gray-100 animate-in fade-in slide-in-from-bottom-4 duration-200"
+          className="fixed bottom-0 right-0 sm:bottom-5 sm:right-5 z-[2147483000] w-full sm:w-[400px] h-[100dvh] sm:h-[640px] max-h-[100dvh] bg-white sm:rounded-3xl shadow-xl flex flex-col overflow-hidden border border-gray-100 animate-in fade-in slide-in-from-bottom-4 duration-200"
           style={isDesktop ? { width: panelSize.width, height: panelSize.height } : undefined}
         >
             {isDesktop && (

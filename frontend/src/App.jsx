@@ -3,7 +3,8 @@ import ProductFinderWidget from './components/ProductFinder/ProductFinderWidget'
 
 function App() {
   return (
-    <div className="min-h-screen bg-emerald-50/40 p-6 flex flex-col justify-between">
+    // The mock page carries the widget's root class too, since Tailwind utilities are scoped to it.
+    <div className="bixa-product-finder-root min-h-screen bg-emerald-50/40 p-6 flex flex-col justify-between">
       {/* Mock BIXA Website Header */}
       <header className="max-w-5xl mx-auto w-full bg-white rounded-2xl shadow-xs border border-gray-200/80 p-4 flex items-center justify-between">
         <div className="flex items-center gap-2">

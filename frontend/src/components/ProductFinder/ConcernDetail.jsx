@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Loader2, Home } from 'lucide-react';
 import { trackProductFinderEvent } from '../../utils/analytics';
+import { catalogRequest } from '../../utils/catalogClient';
 import { parseConcernCopy } from './parseConcernCopy';
 
 const DOCTOR_CONSULTATION_URL = 'https://bixabotanical.in/pages/free-doctor-consultation';
@@ -18,9 +19,7 @@ const ConcernDetail = ({ concern, subtopic, onBackToHome, onKnowMore }) => {
       if (!concern || !concern.slug) return;
       setLoading(true);
       try {
-        const apiBase = window.__BIXA_API_BASE__ || '/api/product-finder';
-        const res = await fetch(`${apiBase}/concerns/${concern.slug}`);
-        const data = await res.json();
+        const data = await catalogRequest(`/concerns/${concern.slug}`);
 
         if (isMounted) {
           if (data.success && data.data) {

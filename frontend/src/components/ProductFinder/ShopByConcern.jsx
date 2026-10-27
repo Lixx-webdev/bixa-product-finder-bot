@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Search, ChevronRight, Loader2, Heart } from 'lucide-react';
 import { trackProductFinderEvent } from '../../utils/analytics';
+import { catalogRequest } from '../../utils/catalogClient';
 import { getConcernIcon } from './concernIcons';
 import WidgetFooter from './WidgetFooter';
 
@@ -15,13 +16,11 @@ const ShopByConcern = ({ onSelectConcern }) => {
     const fetchConcerns = async () => {
       setLoading(true);
       try {
-        const apiBase = window.__BIXA_API_BASE__ || '/api/product-finder';
-        const url = searchQuery.trim()
-          ? `${apiBase}/concerns?q=${encodeURIComponent(searchQuery.trim())}`
-          : `${apiBase}/concerns`;
+        const path = searchQuery.trim()
+          ? `/concerns?q=${encodeURIComponent(searchQuery.trim())}`
+          : '/concerns';
 
-        const res = await fetch(url);
-        const data = await res.json();
+        const data = await catalogRequest(path);
 
         if (isMounted) {
           if (data.success) {

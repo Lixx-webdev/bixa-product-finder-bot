@@ -34,9 +34,9 @@ The BIXA catalogue has 120+ herbs, capsules and combo packs, and many visitors a
 **For BIXA**
 - **Compliance-safe:** recommendations are deterministic and come only from approved copy. Every concern screen carries the educational-purposes disclaimer.
 - **Higher conversion:** shorter path from "I have a concern" to checkout.
-- **Insight:** anonymous analytics events (widget opened, concern selected, Buy Now clicked, doctor link clicked, etc.) show what customers look for.
+- **Insight:** analytics events (widget opened, concern selected, Buy Now clicked, doctor link clicked, etc.) go straight into the store's existing Google Analytics 4, showing what customers look for.
 - **Easy to deploy:** one `<script>` tag on the Shopify theme; no Shopify app or theme rebuild needed.
-- **Low running cost:** the API serves everything from memory and needs no database to run.
+- **Zero running cost, near-zero maintenance:** no server, database or hosting account. The widget is a single file stored in the Shopify theme, with all product and concern data built in.
 
 ## Tech stack
 
@@ -44,25 +44,44 @@ The BIXA catalogue has 120+ herbs, capsules and combo packs, and many visitors a
 |---|---|
 | Widget UI | React 18, Tailwind CSS 3, lucide-react icons, Playfair Display (Google Fonts) |
 | Build tooling | Vite 5 (library mode: IIFE / UMD / ES bundles for embedding) |
-| API | Node.js (ES modules), Express 4, express-rate-limit, CORS, dotenv |
-| Data | JSON knowledge base served from memory; optional Google Cloud Firestore via `firebase-admin` |
+| Data pipeline | Node.js scripts that turn the JSON knowledge base into the data bundled in the widget |
+| Analytics | Google Analytics 4 (the store's existing `gtag` / Google Tag Manager) |
 | Commerce | Shopify (bixabotanical.in): product pages and `/cart/{variant_id}:1` checkout permalinks |
-| Hosting (planned) | API on Heroku; widget bundle loaded by a `<script>` tag on the Shopify theme |
+| Hosting | None needed. The widget file is uploaded to the Shopify theme's assets |
+| Optional API | Node.js (ES modules), Express 4, express-rate-limit, CORS, optional Google Cloud Firestore. Not needed for the live widget |
+
+## How it works
+
+```
+knowledge_base/products_with_images.json ─┐
+backend/data/concerns_messages.json ──────┤  npm run build (frontend/)
+                                          ▼
+              backend/scripts/export-static-data.js   (dedupe, classify, parse sub-concerns,
+                                          │            match recommended products)
+                                          ▼
+              frontend/src/data/catalog.json ──► bundled into bixa-product-finder.iife.js
+                                                              │
+                                     uploaded to Shopify theme assets, loaded on every page
+```
+
+The live widget makes no calls to any server of ours. Its data is built in, and its analytics go to the store's Google Analytics. The `backend/` folder provides the data logic and checks used at build time. It can also run as a standalone API, but the widget doesn't need it.
 
 ## Project structure
 
 ```
 bixa-product-finder/
-├── backend/                      Express API
+├── backend/                      Data logic + optional Express API
 │   ├── server.js                 App setup, CORS, rate limiting, port fallback
 │   ├── routes/                   /product-finder/* endpoints
 │   ├── services/firestoreService.js   All data access, product/concern logic
 │   ├── config/firebase.js        Optional Firestore connection
 │   ├── data/concerns_messages.json    Pre-approved concern copy (edit this)
-│   └── scripts/                  validate-data.js, test-api.js, seed-firebase.js
+│   └── scripts/                  export-static-data.js, validate-data.js, test-api.js, seed-firebase.js
 ├── frontend/                     React widget
 │   ├── src/embed.jsx             Production entry: self-mounting widget
 │   ├── src/App.jsx               Dev entry: mock BIXA storefront page
+│   ├── src/data/catalog.json     Generated data bundled into the widget (don't edit by hand)
+│   ├── src/utils/catalogClient.js  Answers the screens' data requests from catalog.json
 │   └── src/components/ProductFinder/   One component per screen
 └── knowledge_base/
     ├── products_with_images.json Product catalogue the API loads
@@ -75,19 +94,13 @@ bixa-product-finder/
 **Prerequisites:** Node.js 18+ and npm.
 
 ```bash
-# 1. Backend
-cd backend
-npm install
-cp .env.example .env        # sets PORT=5057, which the frontend dev proxy expects
-npm run dev                 # http://localhost:5057/health
-
-# 2. Frontend (in a second terminal)
-cd frontend
-npm install
-npm run dev                 # http://localhost:3000, with the widget in the bottom-right corner
+cd backend && npm install            # needed: the build uses the backend's data logic
+cd ../frontend && npm install
+npm run data                         # generate src/data/catalog.json from the knowledge base
+npm run dev                          # http://localhost:3000, with the widget in the bottom-right corner
 ```
 
-Firebase is **optional**. With no credentials, the API automatically serves everything from the local JSON files.
+No server needs to be running.
 
 ### Useful commands
 
@@ -95,12 +108,13 @@ Firebase is **optional**. With no credentials, the API automatically serves ever
 |---|---|---|
 | backend | `npm run validate` | Checks product data and that every recommended product in the concern copy matches a real product. Exits 1 on errors. |
 | backend | `node scripts/test-api.js` | Smoke-tests all API endpoints |
-| frontend | `npm run build` | Builds the embeddable bundle into `frontend/dist/` |
+| frontend | `npm run data` | Regenerates `src/data/catalog.json` from the knowledge base |
+| frontend | `npm run build` | Regenerates the data, then builds `dist/bixa-product-finder.iife.js` |
 | frontend | `npm run preview` | Previews the production build |
 
-## API
+## Optional API
 
-All endpoints are available under both `/product-finder` and `/api/product-finder`.
+The live widget doesn't use it. It's kept for anyone who wants to serve the same data elsewhere. Run it with `cd backend && cp .env.example .env && npm run dev`. All endpoints are available under both `/product-finder` and `/api/product-finder`.
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -114,25 +128,26 @@ All endpoints are available under both `/product-finder` and `/api/product-finde
 
 ## Embedding on the BIXA website
 
-1. Build the widget: `cd frontend && npm run build`.
-2. Host `dist/bixa-product-finder.iife.js` and `dist/style.css` (e.g. upload them to Shopify theme assets).
-3. Add the following to the theme, before `</body>`:
+The widget ships as **one self-contained file**, `frontend/dist/bixa-product-finder.iife.js`, with its CSS built in. It renders inside a Shadow DOM, so the store theme's CSS can't change how it looks, and its CSS can't affect the store's pages.
 
-```html
-<link rel="stylesheet" href="https://YOUR-HOST/style.css">
-<script>window.__BIXA_API_BASE__ = 'https://YOUR-API-HOST/product-finder';</script>
-<script src="https://YOUR-HOST/bixa-product-finder.iife.js"></script>
+1. Build the widget: `cd frontend && npm run build`.
+2. In Shopify admin, go to **Online Store → Themes → ⋯ → Edit code**. Under **Assets**, upload `bixa-product-finder.iife.js`.
+3. In `layout/theme.liquid`, add this line just before `</body>`:
+
+```liquid
+<script src="{{ 'bixa-product-finder.iife.js' | asset_url }}" defer></script>
 ```
 
-If `__BIXA_API_BASE__` isn't set, the widget falls back to the Heroku URL hard-coded in `src/embed.jsx`.
+That's the whole installation. Analytics events appear in the store's Google Analytics 4 as `pf_*` events (e.g. `pf_concern_selected`). To use their parameters in GA4 reports, register them as custom dimensions in GA4.
 
-On the API server, set `NODE_ENV=production`. Browser requests are only accepted from bixabotanical.in; to allow other domains (e.g. the store's `*.myshopify.com` address used in the theme editor), list them in `CORS_ORIGINS`, comma-separated.
+Optional: setting `window.__BIXA_API_BASE__` before the script also sends events to a deployed copy of the optional API.
 
 ## Updating content
 
 - **Concern messages:** edit `backend/data/concerns_messages.json`. Number each sub-concern (`1. Title`, `2. Title`, …), name the product in a line beginning *"we recommend …"*, and put a standalone `Know More` line before the longer explanation.
 - **Products:** edit `knowledge_base/products_with_images.json` (name, category, image, `buy_link`, Shopify `variant_id`, `format`).
 - **Always run `npm run validate` afterwards.** It catches broken links and product names that don't match.
+- **Then publish:** run `npm run build` in `frontend/` and replace `bixa-product-finder.iife.js` in the Shopify theme assets. Content only changes on the live site when the file is re-uploaded.
 
 ## Challenges and solutions
 
@@ -147,11 +162,14 @@ On the API server, set `NODE_ENV=production`. Browser requests are only accepted
 | **Combo pack links were shuffled.** All 8 combos pointed to a *different* combo's page because of a data-entry offset. | Each combo was cross-checked by exact title against the live Shopify catalogue and its link corrected. Four discontinued products were removed rather than left with dead links. |
 | **"Buy Now" landed on the product page**, adding an extra step before purchase. | Each product now stores its Shopify `variant_id`. Buy Now uses Shopify's `/cart/{variant_id}:1` permalink to go straight to checkout, falling back to the product page if needed. |
 | **Firebase isn't always configured** (local development, demos, or a credentials outage). | All data access goes through one service that tries Firestore and falls back to in-memory JSON on any error, so the API behaves the same with or without Firebase. |
+| **A single maintainer, and a server would need an account, payment and monitoring.** If either lapsed, the widget would break silently. | The data is baked into the widget at build time using the same backend logic, and analytics go to the store's existing Google Analytics. Nothing has to run or be paid for: the widget is one file in the Shopify theme (121 KB compressed, loaded with `defer`). |
 | **Embedding a React app into an existing Shopify theme.** | Vite builds a self-contained IIFE bundle that creates its own container, guards against loading twice, and reads its API URL from a global variable. |
+| **The first embed build crashed on load** ("process is not defined") because Vite's library mode doesn't replace `process.env.NODE_ENV`. | The build now defines it at compile time, which also dropped React's development code (bundle 527 KB → 221 KB). |
+| **CSS clashes with the live theme.** Tailwind's global reset would have restyled the whole store, and the theme's own `.flex`, `.gap-*` and `.py-3` classes (some `!important`) broke the widget's layout. | The widget renders inside a Shadow DOM with its CSS injected there and scoped to the widget root, so neither side can affect the other. The z-index is raised above theme overlays. |
 | **Changes "not showing up" on test pages.** | Pages loading the built bundle serve whatever was last built. The fix was to rebuild `dist/` after each completed change and check for a stale build before debugging code. |
 | **Port clashes and broken dev proxy** when several local servers were running. | The API retries on the next free port, and `.env.example` pins the port the frontend proxy expects. |
 | **Many concerns don't have written content yet.** | Those concerns show a friendly "Content coming soon" card with a free doctor-consultation button instead of an empty screen. |
-| **Analytics must never slow down or break shopping.** | Tracking calls are fire-and-forget and all errors are swallowed. Sessions are anonymous IDs with no personal data. |
+| **Analytics must never slow down or break shopping.** | Events are handed to the page's own Google Analytics tag (`gtag`/`dataLayer`), and any error is swallowed. No personal data is sent. |
 
 ## Known issues and roadmap
 
@@ -159,8 +177,9 @@ On the API server, set `NODE_ENV=production`. Browser requests are only accepted
 - **Four sub-concerns show no product** because the copy uses a different name from the catalogue: Majishtha → *Manjistha*, Fenugreek → *Methi Seeds*, Gudmar → *Gurmar Leaves*, Stevia Leaf → *Stevia Leaves*. Run `npm run validate` to see them.
 - **Content pending:** only Blood, Diabetic, Heart and Hair Wellness have full sub-concern copy so far; the other 15 concerns show placeholders.
 - **Placeholder links:** the Track My Order URL and the footer social-media links still need their real addresses.
-- **`npm run seed` only validates data.** It does not yet write products to Firestore.
-- **Planned:** live call-back with the Ayurvedic doctor during consultation hours, including a queue and phone-number capture.
+- **Content edits need a re-upload:** after changing products or concern copy, rebuild and replace the widget file in Shopify.
+- **`npm run seed` only validates data.** It does not yet write products to Firestore (only relevant to the optional API).
+- **Planned:** live text chat with the Ayurvedic doctor during consultation hours (via tawk.to), with a leave-your-number form when the doctor is unavailable.
 
 ---
 

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Search, ChevronRight, Loader2, ListTree } from 'lucide-react';
 import { trackProductFinderEvent } from '../../utils/analytics';
+import { catalogRequest } from '../../utils/catalogClient';
 import WidgetFooter from './WidgetFooter';
 
 // Intermediate screen shown after picking a concern that has multiple sub-concerns (e.g. Hair
@@ -19,9 +20,7 @@ const ConcernSubtopics = ({ concern, onSelectSubtopic }) => {
       setLoading(true);
       setError(null);
       try {
-        const apiBase = window.__BIXA_API_BASE__ || '/api/product-finder';
-        const res = await fetch(`${apiBase}/concerns/${concern.slug}`);
-        const data = await res.json();
+        const data = await catalogRequest(`/concerns/${concern.slug}`);
 
         if (isMounted) {
           if (data.success && data.data?.sections?.length > 0) {

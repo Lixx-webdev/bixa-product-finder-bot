@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Loader2, AlertCircle } from 'lucide-react';
 import ProductCard from './ProductCard';
 import { trackProductFinderEvent } from '../../utils/analytics';
+import { catalogRequest } from '../../utils/catalogClient';
 
 const TABS = [
   { key: 'POWDER', label: 'Powders', category: 'HERBS', format: 'POWDER' },
@@ -24,12 +25,10 @@ const ShopByProducts = () => {
       setLoading(true);
       setError(null);
       try {
-        const apiBase = window.__BIXA_API_BASE__ || '/api/product-finder';
-        const params = new URLSearchParams({ category: tab.category, limit: '100' });
+        const params = new URLSearchParams({ category: tab.category });
         if (tab.format) params.append('format', tab.format);
 
-        const res = await fetch(`${apiBase}/products?${params.toString()}`);
-        const data = await res.json();
+        const data = await catalogRequest(`/products?${params.toString()}`);
 
         if (isMounted) {
           if (data.success) {

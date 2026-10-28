@@ -172,7 +172,6 @@ Optional: setting `window.__BIXA_API_BASE__` before the script also sends events
 
 ## Known issues and roadmap
 
-- **Four sub-concerns show no product** because the copy uses a different name from the catalogue: Majishtha → *Manjistha*, Fenugreek → *Methi Seeds*, Gudmar → *Gurmar Leaves*, Stevia Leaf → *Stevia Leaves*. Run `npm run validate` to see them.
 - **Content pending:** only Blood, Diabetic, Heart and Hair Wellness have full sub-concern copy so far; the other 15 concerns show placeholders.
 - **Placeholder links:** the Track My Order URL and the footer social-media links still need their real addresses.
 - **Content edits need a re-upload:** after changing products or concern copy, rebuild and replace the widget file in Shopify.

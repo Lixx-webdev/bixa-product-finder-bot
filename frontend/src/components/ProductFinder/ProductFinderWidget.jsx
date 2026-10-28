@@ -1,8 +1,6 @@
 import React, { useState, useRef, useCallback, useEffect } from 'react';
 import ProductFinderHeader from './ProductFinderHeader';
 import ProductFinderHome from './ProductFinderHome';
-import ShopMenu from './ShopMenu';
-import ShopByProducts from './ShopByProducts';
 import ShopByConcern from './ShopByConcern';
 import ConcernSubtopics from './ConcernSubtopics';
 import ConcernDetail from './ConcernDetail';
@@ -17,7 +15,7 @@ const MAX_SIZE = { width: 640, height: 860 };
 
 const ProductFinderWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
-  // HOME | SHOP | PRODUCTS | CONCERN | CONCERN_SUBTOPICS | CONCERN_DETAIL | CONCERN_KNOWMORE
+  // HOME | CONCERN | CONCERN_SUBTOPICS | CONCERN_DETAIL | CONCERN_KNOWMORE
   const [currentScreen, setCurrentScreen] = useState('HOME');
   const [selectedConcern, setSelectedConcern] = useState(null);
   const [selectedSubtopic, setSelectedSubtopic] = useState(null);
@@ -98,7 +96,6 @@ const ProductFinderWidget = () => {
   };
 
   const handleBackToHome = () => setCurrentScreen('HOME');
-  const handleBackToShop = () => setCurrentScreen('SHOP');
   const handleBackToConcerns = () => setCurrentScreen('CONCERN');
 
   const handleBackFromDetail = () => {
@@ -155,47 +152,30 @@ const ProductFinderWidget = () => {
               <ProductFinderHeader
                 onClose={toggleOpen}
                 onBack={
-                  currentScreen === 'SHOP' ? handleBackToHome
-                  : currentScreen === 'PRODUCTS' ? handleBackToShop
-                  : currentScreen === 'CONCERN' ? handleBackToShop
+                  currentScreen === 'CONCERN' ? handleBackToHome
                   : currentScreen === 'CONCERN_SUBTOPICS' ? handleBackToConcerns
                   : currentScreen === 'CONCERN_DETAIL' ? handleBackFromDetail
                   : currentScreen === 'CONCERN_KNOWMORE' ? handleBackFromKnowMore
                   : handleBackToHome
                 }
                 Icon={
-                  currentScreen === 'SHOP' ? ScrollText
-                  : currentScreen === 'PRODUCTS' ? ScrollText
-                  : currentScreen === 'CONCERN' ? ScrollText
+                  currentScreen === 'CONCERN' ? ScrollText
                   : currentScreen === 'CONCERN_SUBTOPICS' ? ConcernIcon
                   : null
                 }
                 title={
-                  currentScreen === 'SHOP' ? 'Shop'
-                  : currentScreen === 'PRODUCTS' ? 'Shop By Products'
-                  : currentScreen === 'CONCERN' ? 'Shop by Concern'
+                  currentScreen === 'CONCERN' ? 'Shop by Concern'
                   : currentScreen === 'CONCERN_SUBTOPICS' ? selectedConcern?.name
                   : currentScreen === 'CONCERN_DETAIL' ? (selectedSubtopic ? selectedSubtopic.title.replace(/^\d+\.\s*/, '') : selectedConcern?.name)
                   : currentScreen === 'CONCERN_KNOWMORE' ? (selectedSubtopic ? selectedSubtopic.title.replace(/^\d+\.\s*/, '') : selectedConcern?.name)
                   : 'BIXA Product Finder'
                 }
-                subtitle={
-                  currentScreen === 'PRODUCTS' ? 'Browse Herbs, Formulations & Combos A-Z'
-                  : 'Authentic Herbal & Ayurvedic Discovery'
-                }
+                subtitle="Authentic Herbal & Ayurvedic Discovery"
               />
             )}
 
             {currentScreen !== 'HOME' && (
             <div className="flex-1 min-h-0 flex flex-col overflow-hidden relative">
-              {currentScreen === 'SHOP' && (
-                <ShopMenu onSelectPath={handleSelectPath} />
-              )}
-
-              {currentScreen === 'PRODUCTS' && (
-                <ShopByProducts />
-              )}
-
               {currentScreen === 'CONCERN' && (
                 <ShopByConcern onSelectConcern={handleSelectConcern} />
               )}

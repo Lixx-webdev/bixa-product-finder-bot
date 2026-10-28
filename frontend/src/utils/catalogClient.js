@@ -10,18 +10,10 @@ const expand = (ids = []) => ids.map(id => catalog.products[id]).filter(Boolean)
 const respond = (data) => Promise.resolve({ success: true, count: Array.isArray(data) ? data.length : undefined, data });
 const notFound = (message) => Promise.resolve({ success: false, error: message });
 
-// `path` mirrors the old API routes, e.g. "/products?category=HERBS&format=POWDER",
-// "/concerns?q=hair" or "/concerns/hair-wellness".
+// `path` mirrors the old API routes, e.g. "/concerns?q=hair" or "/concerns/hair-wellness".
 export const catalogRequest = (path) => {
   const [route, queryString = ''] = path.split('?');
   const query = new URLSearchParams(queryString);
-
-  if (route === '/products') {
-    const category = (query.get('category') || '').toUpperCase();
-    const format = (query.get('format') || '').toUpperCase();
-    const key = format ? `${category}:${format}` : category;
-    return respond(expand(catalog.productsByTab[key]));
-  }
 
   if (route === '/concerns') {
     const q = (query.get('q') || '').trim().toLowerCase();

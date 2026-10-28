@@ -7,7 +7,7 @@ import WidgetFooter from './WidgetFooter';
 const DOCTOR_CONSULTATION_URL = 'https://bixabotanical.in/pages/free-doctor-consultation';
 
 const MENU_ITEMS = [
-  { key: 'shop', label: 'Shop', type: 'path', target: 'SHOP' },
+  { key: 'shop_by_concern', label: 'Shop by Concern', type: 'path', target: 'CONCERN' },
   { key: 'doctor', label: 'Book Doctor Consultation', type: 'external', target: DOCTOR_CONSULTATION_URL },
   // TODO: replace with the real order-tracking destination once provided.
   { key: 'track', label: 'Track My Order', type: 'external', target: 'https://bixabotanical.in/apps/track' },

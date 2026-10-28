@@ -5,7 +5,7 @@
 <h1 align="center">BIXA Product Finder</h1>
 
 <p align="center">
-  An embeddable shopping assistant for <a href="https://bixabotanical.in">bixabotanical.in</a> that helps visitors find the right Ayurvedic product, by product type or by health concern.
+  An embeddable shopping assistant for <a href="https://bixabotanical.in">bixabotanical.in</a> that helps visitors find the right Ayurvedic product for their health concern.
 </p>
 
 ---
@@ -14,7 +14,6 @@
 
 BIXA Product Finder is a floating chat-style widget that sits in the corner of the BIXA Botanical website. Visitors open it and are guided through a short, button-driven conversation:
 
-- **Shop by Products:** browse the catalogue by tab (Powders, Capsules, Formulations, Combos).
 - **Shop by Concern:** pick a health concern (e.g. Hair Wellness), then a specific need (e.g. *Hair Fall & Thinning Support*), and get the recommended BIXA product with a short explanation, a "Best for" summary, and a one-tap **Buy Now** that goes straight to checkout.
 - **Quick links:** book a free Ayurvedic doctor consultation, track an order, contact support, see current offers, make a bulk enquiry, or read the return policy.
 
@@ -173,7 +172,6 @@ Optional: setting `window.__BIXA_API_BASE__` before the script also sends events
 
 ## Known issues and roadmap
 
-- **Formulations tab is empty:** the current classification never assigns `FORMULATIONS`, because the source data has no field that identifies them.
 - **Four sub-concerns show no product** because the copy uses a different name from the catalogue: Majishtha → *Manjistha*, Fenugreek → *Methi Seeds*, Gudmar → *Gurmar Leaves*, Stevia Leaf → *Stevia Leaves*. Run `npm run validate` to see them.
 - **Content pending:** only Blood, Diabetic, Heart and Hair Wellness have full sub-concern copy so far; the other 15 concerns show placeholders.
 - **Placeholder links:** the Track My Order URL and the footer social-media links still need their real addresses.

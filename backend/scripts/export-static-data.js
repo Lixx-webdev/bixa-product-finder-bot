@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { getCategories, getProducts, getConcerns, getConcernBySlug } from '../services/firestoreService.js';
+import { getCategories, getConcerns, getConcernBySlug } from '../services/firestoreService.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -13,28 +13,15 @@ const __dirname = path.dirname(__filename);
 // knowledge_base/products_with_images.json or backend/data/concerns_messages.json if using `npm run dev`.
 const OUT_PATH = path.resolve(__dirname, '../../frontend/src/data/catalog.json');
 
-// Same queries the widget's Shop by Products tabs make (see frontend ShopByProducts TABS).
-const PRODUCT_TABS = [
-  { key: 'HERBS:POWDER', category: 'HERBS', format: 'POWDER' },
-  { key: 'HERBS:CAPSULE', category: 'HERBS', format: 'CAPSULE' },
-  { key: 'FORMULATIONS', category: 'FORMULATIONS' },
-  { key: 'COMBOS', category: 'COMBOS' }
-];
-
 async function exportStaticData() {
-  const productsByTab = {};
-  for (const tab of PRODUCT_TABS) {
-    productsByTab[tab.key] = await getProducts({ category: tab.category, format: tab.format, limit: 1000 });
-  }
-
   const concerns = await getConcerns({});
   const concernDetails = {};
   for (const concern of concerns) {
     concernDetails[concern.slug] = await getConcernBySlug(concern.slug);
   }
 
-  // Each product object is stored once in `products` and referenced by id everywhere else (tabs,
-  // concern products, sub-concern products) to keep the bundle small; the widget's catalog client
+  // Each product object is stored once in `products` and referenced by id everywhere else (concern
+  // products, sub-concern products) to keep the bundle small; the widget's catalog client
   // re-expands the ids back into full objects.
   const products = {};
   const ref = (list) => list.map(p => { products[p.id] = p; return p.id; });
@@ -43,7 +30,6 @@ async function exportStaticData() {
     generatedAt: new Date().toISOString(),
     categories: await getCategories(),
     products,
-    productsByTab: Object.fromEntries(Object.entries(productsByTab).map(([k, list]) => [k, ref(list)])),
     concerns,
     concernDetails: Object.fromEntries(Object.entries(concernDetails).map(([slug, d]) => [slug, d && {
       ...d,
@@ -55,9 +41,8 @@ async function exportStaticData() {
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   fs.writeFileSync(OUT_PATH, JSON.stringify(catalog));
 
-  const tabCounts = Object.entries(productsByTab).map(([k, v]) => `${k}: ${v.length}`).join(', ');
   console.log(`✅ Wrote ${path.relative(process.cwd(), OUT_PATH)} (${(fs.statSync(OUT_PATH).size / 1024).toFixed(0)} KB)`);
-  console.log(`   Products — ${tabCounts}; concerns: ${concerns.length}`);
+  console.log(`   Products: ${Object.keys(products).length}; concerns: ${concerns.length}`);
 }
 
 exportStaticData();

@@ -9,8 +9,6 @@ const DOCTOR_CONSULTATION_URL = 'https://bixabotanical.in/pages/free-doctor-cons
 const MENU_ITEMS = [
   { key: 'shop_by_concern', label: 'Shop by Concern', type: 'path', target: 'CONCERN' },
   { key: 'doctor', label: 'Book Doctor Consultation', type: 'external', target: DOCTOR_CONSULTATION_URL },
-  // TODO: replace with the real order-tracking destination once provided.
-  { key: 'track', label: 'Track My Order', type: 'external', target: 'https://bixabotanical.in/apps/track' },
   { key: 'support', label: 'Contact Our Support Team', type: 'external', target: 'https://bixabotanical.in/pages/contact-us' },
   { key: 'offers', label: 'Current Offer Details', type: 'external', target: 'https://bixabotanical.in/pages/offers' },
   { key: 'bulk', label: 'For Bulk Enquiries', type: 'external', target: 'https://bixabotanical.in/pages/bulk-enquiry-new' },

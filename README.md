@@ -15,7 +15,7 @@
 BIXA Product Finder is a floating chat-style widget that sits in the corner of the BIXA Botanical website. Visitors open it and are guided through a short, button-driven conversation:
 
 - **Shop by Concern:** pick a health concern (e.g. Hair Wellness), then a specific need (e.g. *Hair Fall & Thinning Support*), and get the recommended BIXA product with a short explanation, a "Best for" summary, and a one-tap **Buy Now** that goes straight to checkout.
-- **Quick links:** book a free Ayurvedic doctor consultation, track an order, contact support, see current offers, make a bulk enquiry, or read the return policy.
+- **Quick links:** book a free Ayurvedic doctor consultation, contact support, see current offers, make a bulk enquiry, or read the return policy.
 
 ### Purpose
 
@@ -137,7 +137,11 @@ The widget ships as **one self-contained file**, `frontend/dist/bixa-product-fin
 <script src="{{ 'bixa-product-finder.iife.js' | asset_url }}" defer></script>
 ```
 
-That's the whole installation. Analytics events appear in the store's Google Analytics 4 as `pf_*` events (e.g. `pf_concern_selected`). To use their parameters in GA4 reports, register them as custom dimensions in GA4.
+4. Turn off the store's **Shopify Inbox** chat bubble, which uses the same bottom-right corner: **Online Store → Themes → Customize → App embeds →** switch off **Shopify Inbox** → **Save**. This is set separately for each theme.
+
+Test on a duplicate of the live theme first (**⋯ → Duplicate**, then **⋯ → Preview**), then repeat the same steps on the live theme rather than publishing the copy, so no edits made to the live theme in the meantime are lost. To roll back, delete the script line and switch Shopify Inbox back on.
+
+Analytics events appear in the store's Google Analytics 4 as `pf_*` events (e.g. `pf_concern_selected`). To use their parameters in GA4 reports, register them as custom dimensions in GA4.
 
 Optional: setting `window.__BIXA_API_BASE__` before the script also sends events to a deployed copy of the optional API.
 
@@ -173,7 +177,8 @@ Optional: setting `window.__BIXA_API_BASE__` before the script also sends events
 ## Known issues and roadmap
 
 - **Content pending:** only Blood, Diabetic, Heart and Hair Wellness have full sub-concern copy so far; the other 15 concerns show placeholders.
-- **Placeholder links:** the Track My Order URL and the footer social-media links still need their real addresses.
+- **Placeholder links:** the footer social-media links still need their real addresses.
+- **Planned:** a Track My Order link on the home menu, once order tracking is set up on the store (removed until then).
 - **Content edits need a re-upload:** after changing products or concern copy, rebuild and replace the widget file in Shopify.
 - **`npm run seed` only validates data.** It does not yet write products to Firestore (only relevant to the optional API).
 - **Planned:** live text chat with the Ayurvedic doctor during consultation hours (via tawk.to), with a leave-your-number form when the doctor is unavailable.

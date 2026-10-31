@@ -88,6 +88,16 @@ bixa-product-finder/
     └── concerns_data.json        Original source material (not read at runtime)
 ```
 
+## Project rules
+
+These rules are mandatory for anyone changing the widget.
+
+1. **The live website is the source of truth.** Whatever the widget says or displays must match [bixabotanical.in](https://bixabotanical.in). If they differ, the website wins.
+   - The widget lists exactly the concerns on the website's Shop By Wellness menu, no more and no fewer (18 as of October 2026). They're kept in `backend/data/live_concerns.json`.
+   - It uses the website's exact wording for concerns and products, for example "Fitness Wellness" and "Respiratory Wellness".
+   - Run `npm run check-live` in `backend/` after changing concerns or products, and before each release.
+2. **One product per recommendation, for now.** The widget is a recommender, so each sub-concern shows one product: the first one its "we recommend" line names. To change this, update `MAX_RECOMMENDED_PRODUCTS` in `frontend/src/components/ProductFinder/ConcernDetail.jsx`.
+
 ## Getting started
 
 **Prerequisites:** Node.js 18+ and npm.
@@ -105,6 +115,7 @@ No server needs to be running.
 
 | Where | Command | What it does |
 |---|---|---|
+| backend | `npm run check-live` | Compares the widget's concerns and recommended products with the live website |
 | backend | `npm run validate` | Checks product data and that every recommended product in the concern copy matches a real product. Exits 1 on errors. |
 | backend | `node scripts/test-api.js` | Smoke-tests all API endpoints |
 | frontend | `npm run data` | Regenerates `src/data/catalog.json` from the knowledge base |
@@ -175,7 +186,7 @@ Optional: setting `window.__BIXA_API_BASE__` before the script also sends events
 
 ## Known issues and roadmap
 
-- **Content pending:** only Blood, Diabetic, Heart and Hair Wellness have full sub-concern copy so far; the other 15 concerns show placeholders.
+- **Content pending:** Brain, Libido, Nerve, Respiratory, Weight and Women Wellness show "Content coming soon" until their copy arrives.
 - **Placeholder links:** the footer social-media links still need their real addresses.
 - **Planned:** a Track My Order link on the home menu, once order tracking is set up on the store (removed until then).
 - **Content edits need a re-upload:** after changing products or concern copy, rebuild and replace the widget file in Shopify.

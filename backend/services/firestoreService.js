@@ -15,8 +15,8 @@ console.log(`[BIXA Service] Data Engine Mode: ${isCloudFirestoreEnabled ? 'Live 
 
 // Parse a pre-approved concern message into its numbered sub-topics (e.g. "1. Hair Fall & Thinning
 // Support\n...body...\n2. Hair-Growth Support\n...") so each one can be shown as a distinct,
-// selectable sub-concern instead of a single wall of text. Messages without at least two numbered
-// headers are treated as unstructured and return no sections.
+// selectable sub-concern instead of a single wall of text. Messages with no numbered headers are
+// treated as unstructured and return no sections.
 const parseConcernSections = (message, products = []) => {
   if (!message || typeof message !== 'string') return [];
 
@@ -27,7 +27,7 @@ const parseConcernSections = (message, products = []) => {
     headers.push({ start: match.index, end: headerRegex.lastIndex, title: match[2].trim() });
   }
 
-  if (headers.length < 2) return [];
+  if (headers.length === 0) return [];
 
   return headers.map((h, i) => {
     const bodyEnd = i + 1 < headers.length ? headers[i + 1].start : message.length;
@@ -176,10 +176,11 @@ const loadLocalFallbackData = () => {
         };
       });
 
-      // Group concerns and attach pre-approved messages
+      // The concern list and its wording come from the live website (see data/live_concerns.json),
+      // not from the product data's category tags. Attach pre-approved messages to each.
+      const liveConcerns = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../data/live_concerns.json'), 'utf8'));
       const concernMap = new Map();
-      rawProducts.forEach(p => {
-        const cat = (p.category || 'General Wellness').trim();
+      liveConcerns.forEach(cat => {
         if (!concernMap.has(cat)) {
           const catSlug = cat.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
           

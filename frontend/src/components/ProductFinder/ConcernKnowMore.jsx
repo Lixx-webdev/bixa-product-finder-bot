@@ -16,6 +16,7 @@ const ConcernKnowMore = ({ concern, subtopic, productId, onCartChange }) => {
   const introParagraphs = blocks.filter((b) => b.type === 'text');
   const mayHelpHeading = blocks.find((b) => b.type === 'may-help-heading');
   const checklist = blocks.find((b) => b.type === 'checklist');
+  const bestFor = blocks.find((b) => b.type === 'best-for');
   const doctorNote = blocks.find((b) => b.type === 'doctor-note');
   const disclaimer = blocks.find((b) => b.type === 'disclaimer');
 
@@ -54,6 +55,12 @@ const ConcernKnowMore = ({ concern, subtopic, productId, onCartChange }) => {
             ))}
           </ul>
         </div>
+      )}
+
+      {bestFor && (
+        <p className="text-sm text-gray-800">
+          <span className="font-bold">Best for:</span> {bestFor.items.join(', ')}
+        </p>
       )}
 
       {doctorNote && (

@@ -9,7 +9,8 @@
     "dev": "node --watch server.js",
     "seed": "node scripts/seed-firebase.js",
     "validate": "node scripts/validate-data.js",
-    "export-data": "node scripts/export-static-data.js"
+    "export-data": "node scripts/export-static-data.js",
+    "check-live": "node scripts/check-live.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

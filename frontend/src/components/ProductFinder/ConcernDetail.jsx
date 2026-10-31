@@ -6,6 +6,8 @@ import { parseConcernCopy } from './parseConcernCopy';
 import AddToCartButton from './AddToCartButton';
 
 const DOCTOR_CONSULTATION_URL = 'https://bixabotanical.in/pages/free-doctor-consultation';
+// How many products one recommendation shows. The first one its copy names is used.
+const MAX_RECOMMENDED_PRODUCTS = 1;
 
 // Shows the recommended product(s) for a concern (or, when reached via ConcernSubtopics, for one
 // of its sub-concerns), matching the "we recommend <product>" + "Best for:" design. Each
@@ -44,7 +46,7 @@ const ConcernDetail = ({ concern, subtopic, onBackToHome, onKnowMore, onCartChan
   }, [concern]);
 
   const activeConcern = concernData || concern;
-  const products = subtopic ? (subtopic.products || []) : (activeConcern?.products || []);
+  const products = (subtopic ? (subtopic.products || []) : (activeConcern?.products || [])).slice(0, MAX_RECOMMENDED_PRODUCTS);
   const displayMessage = subtopic ? (subtopic.summary ?? subtopic.body) : activeConcern?.message;
   const hasKnowMore = Boolean(subtopic?.knowMore);
 
@@ -52,6 +54,8 @@ const ConcernDetail = ({ concern, subtopic, onBackToHome, onKnowMore, onCartChan
   const leadProduct = blocks.find((b) => b.type === 'lead-product');
   const bestFor = blocks.find((b) => b.type === 'best-for');
   const doctorNote = blocks.find((b) => b.type === 'doctor-note');
+  // Product notes and safety wording, e.g. "Individual results may vary..." or "Please note: ...".
+  const notes = blocks.filter((b) => b.type === 'text' || b.type === 'disclaimer');
   const isPlaceholder = !leadProduct && products.length === 0;
 
   const handleKnowMoreClick = (product) => {
@@ -112,7 +116,7 @@ const ConcernDetail = ({ concern, subtopic, onBackToHome, onKnowMore, onCartChan
             <div>
               <p className="text-sm text-gray-600">{leadProduct.lead}</p>
               <p className="font-heading text-lg font-bold text-bixa-darkgreen leading-snug mt-0.5">
-                {leadProduct.product}
+                {leadProduct.product.split(/\s+and\s+/i).slice(0, MAX_RECOMMENDED_PRODUCTS).join(' and ')}
               </p>
             </div>
           )}
@@ -189,6 +193,10 @@ const ConcernDetail = ({ concern, subtopic, onBackToHome, onKnowMore, onCartChan
               Main Menu
             </button>
           </div>
+
+          {notes.map((note, i) => (
+            <p key={i} className="text-[11px] text-gray-500 leading-relaxed">{note.text}</p>
+          ))}
 
           {doctorNote && (
             <p className="text-xs text-gray-600 leading-relaxed">{doctorNote.text}</p>

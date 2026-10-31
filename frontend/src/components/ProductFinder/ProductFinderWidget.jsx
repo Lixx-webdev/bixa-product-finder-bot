@@ -6,8 +6,9 @@ import ConcernSubtopics from './ConcernSubtopics';
 import ConcernDetail from './ConcernDetail';
 import ConcernKnowMore from './ConcernKnowMore';
 import { getConcernIcon } from './concernIcons';
-import { ScrollText } from 'lucide-react';
+import { ScrollText, ShoppingCart } from 'lucide-react';
 import { trackProductFinderEvent } from '../../utils/analytics';
+import { getCartCount, openCartDrawer } from '../../utils/cart';
 
 const DEFAULT_SIZE = { width: 400, height: 640 };
 const MIN_SIZE = { width: 320, height: 420 };
@@ -20,6 +21,7 @@ const ProductFinderWidget = () => {
   const [selectedConcern, setSelectedConcern] = useState(null);
   const [selectedSubtopic, setSelectedSubtopic] = useState(null);
   const [knowMoreProductId, setKnowMoreProductId] = useState(null);
+  const [cartCount, setCartCount] = useState(0);
 
   // Real-time resizing (desktop/floating mode only — mobile stays full-screen by design).
   const [panelSize, setPanelSize] = useState(DEFAULT_SIZE);
@@ -73,6 +75,9 @@ const ProductFinderWidget = () => {
     if (nextState) {
       setCurrentScreen('HOME');
       trackProductFinderEvent('chatbot_opened');
+      // Items may have been added or removed outside the widget. Off the store this request fails,
+      // and the cart bar simply stays hidden.
+      getCartCount().then(setCartCount).catch(() => {});
     }
   };
 
@@ -193,6 +198,7 @@ const ProductFinderWidget = () => {
                   subtopic={selectedSubtopic}
                   onBackToHome={handleBackToHome}
                   onKnowMore={handleKnowMore}
+                  onCartChange={setCartCount}
                 />
               )}
 
@@ -202,9 +208,24 @@ const ProductFinderWidget = () => {
                   subtopic={selectedSubtopic}
                   productId={knowMoreProductId}
                   onBackToHome={handleBackToHome}
+                  onCartChange={setCartCount}
                 />
               )}
             </div>
+            )}
+
+            {currentScreen !== 'HOME' && cartCount > 0 && (
+              <a
+                href="/cart"
+                onClick={(e) => {
+                  trackProductFinderEvent('view_cart_clicked', { itemCount: cartCount });
+                  if (openCartDrawer()) e.preventDefault();
+                }}
+                className="shrink-0 m-3 py-3 inline-flex items-center justify-center gap-2 bg-bixa-darkgreen hover:bg-bixa-green text-white text-sm font-bold rounded-full transition-colors"
+              >
+                <ShoppingCart className="w-4 h-4" />
+                View Cart & Checkout ({cartCount})
+              </a>
             )}
           </div>
       )}

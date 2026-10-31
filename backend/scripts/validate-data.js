@@ -31,7 +31,7 @@ async function validateData() {
     if (!p.image_url) warnings.push(`${label}: missing "image_url" (placeholder image shown)`);
     if (!p.buy_link) errors.push(`${label}: missing "buy_link"`);
     else if (!/^https:\/\/(www\.)?bixabotanical\.in\//.test(p.buy_link)) errors.push(`${label}: buy_link is not a bixabotanical.in URL: ${p.buy_link}`);
-    if (!p.variant_id) warnings.push(`${label}: missing "variant_id" (Buy Now falls back to the product page)`);
+    if (!p.variant_id) warnings.push(`${label}: missing "variant_id" (Add to Cart falls back to the product page)`);
     else if (!/^\d+$/.test(String(p.variant_id))) errors.push(`${label}: variant_id is not numeric: ${p.variant_id}`);
   });
 

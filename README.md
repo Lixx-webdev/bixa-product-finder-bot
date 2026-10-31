@@ -14,7 +14,7 @@
 
 BIXA Product Finder is a floating chat-style widget that sits in the corner of the BIXA Botanical website. Visitors open it and are guided through a short, button-driven conversation:
 
-- **Shop by Concern:** pick a health concern (e.g. Hair Wellness), then a specific need (e.g. *Hair Fall & Thinning Support*), and get the recommended BIXA product with a short explanation, a "Best for" summary, and a one-tap **Buy Now** that goes straight to checkout.
+- **Shop by Concern:** pick a health concern (e.g. Hair Wellness), then a specific need (e.g. *Hair Fall & Thinning Support*), and get the recommended BIXA product with a short explanation, a "Best for" summary, and an **Add to Cart** button, so customers can collect several products and check out once.
 - **Quick links:** book a free Ayurvedic doctor consultation, contact support, see current offers, make a bulk enquiry, or read the return policy.
 
 ### Purpose
@@ -26,14 +26,14 @@ The BIXA catalogue has 120+ herbs, capsules and combo packs, and many visitors a
 **For customers**
 - Find a suitable product in a few taps, without knowing Sanskrit or botanical herb names.
 - Get a clear explanation of *why* a herb is recommended, with a "Know More" screen for the fuller Ayurvedic rationale.
-- **Buy Now** adds the product straight to the Shopify cart and checkout, skipping extra page loads.
+- **Add to Cart** works without leaving the page, and a **View Cart & Checkout** button appears once the cart has items.
 - An easy route to a free doctor consultation whenever they're unsure.
 - Works full-screen on mobile and as a resizable floating panel on desktop.
 
 **For BIXA**
 - **Compliance-safe:** recommendations are deterministic and come only from approved copy. Every concern screen carries the educational-purposes disclaimer.
 - **Higher conversion:** shorter path from "I have a concern" to checkout.
-- **Insight:** analytics events (widget opened, concern selected, Buy Now clicked, doctor link clicked, etc.) go straight into the store's existing Google Analytics 4, showing what customers look for.
+- **Insight:** analytics events (widget opened, concern selected, Add to Cart clicked, doctor link clicked, etc.) can feed the store's existing Google Analytics 4 through Google Tag Manager, showing what customers look for.
 - **Easy to deploy:** one `<script>` tag on the Shopify theme; no Shopify app or theme rebuild needed.
 - **Zero running cost, near-zero maintenance:** no server, database or hosting account. The widget is a single file stored in the Shopify theme, with all product and concern data built in.
 
@@ -141,7 +141,7 @@ The widget ships as **one self-contained file**, `frontend/dist/bixa-product-fin
 
 Test on a duplicate of the live theme first (**⋯ → Duplicate**, then **⋯ → Preview**), then repeat the same steps on the live theme rather than publishing the copy, so no edits made to the live theme in the meantime are lost. To roll back, delete the script line and switch Shopify Inbox back on.
 
-Analytics events appear in the store's Google Analytics 4 as `pf_*` events (e.g. `pf_concern_selected`). To use their parameters in GA4 reports, register them as custom dimensions in GA4.
+Analytics events are pushed to the page's `dataLayer` as `pf_*` events (e.g. `pf_concern_selected`). **The store loads Google Analytics through Google Tag Manager, so they reach GA4 only once GTM has a Custom Event trigger matching `^pf_` and a GA4 Event tag.** To use their parameters in GA4 reports, register them as custom dimensions.
 
 Optional: setting `window.__BIXA_API_BASE__` before the script also sends events to a deployed copy of the optional API.
 
@@ -160,10 +160,9 @@ Optional: setting `window.__BIXA_API_BASE__` before the script also sends events
 | **The source data has no product-type field**, so Herbs, Formulations and Combos couldn't be told apart directly. | Products are classified automatically from their names and sections. Herbs are split further into Powders and Capsules using the `format` field. |
 | **Long concern messages were a wall of text.** | The copy follows a simple numbered format that the API parses into selectable sub-concerns, each with a short summary and an optional "Know More" screen. |
 | **Recommendations had to match real products** without hand-maintaining a mapping table. | The API reads each sub-concern's *"we recommend X"* sentence and matches X against the catalogue. Combo packs are excluded so a pack containing the herb isn't recommended in place of the herb itself. |
-| **The same herb is sold as both a powder and a capsule.** | A name normaliser strips format words and botanical names (e.g. *"Karela Fruit Powder (Momordica Charantia)"* → *"karela"*) to link both formats. The widget then shows a single primary product so customers aren't split between choices. |
 | **Spelling differences broke matches silently.** The copy said "Bhringraj" while the product is "Bhring**a**raj", leaving 7 sub-concerns with no product. | The copy was corrected to the product's spelling (the product name is the source of truth), and `npm run validate` now detects any remaining mismatch automatically. |
 | **Combo pack links were shuffled.** All 8 combos pointed to a *different* combo's page because of a data-entry offset. | Each combo was cross-checked by exact title against the live Shopify catalogue and its link corrected. Four discontinued products were removed rather than left with dead links. |
-| **"Buy Now" landed on the product page**, adding an extra step before purchase. | Each product now stores its Shopify `variant_id`. Buy Now uses Shopify's `/cart/{variant_id}:1` permalink to go straight to checkout, falling back to the product page if needed. |
+| **Customers buying several products had to check out separately for each**, because Buy Now went straight to checkout. | Each product stores its Shopify `variant_id`, and Add to Cart uses Shopify's AJAX cart to add it without leaving the page. The header cart count stays in step, and the widget links to the cart. If an add fails, the button links to the product page instead. |
 | **Firebase isn't always configured** (local development, demos, or a credentials outage). | All data access goes through one service that tries Firestore and falls back to in-memory JSON on any error, so the API behaves the same with or without Firebase. |
 | **A single maintainer, and a server would need an account, payment and monitoring.** If either lapsed, the widget would break silently. | The data is baked into the widget at build time using the same backend logic, and analytics go to the store's existing Google Analytics. Nothing has to run or be paid for: the widget is one file in the Shopify theme (121 KB compressed, loaded with `defer`). |
 | **Embedding a React app into an existing Shopify theme.** | Vite builds a self-contained IIFE bundle that creates its own container, guards against loading twice, and reads its API URL from a global variable. |

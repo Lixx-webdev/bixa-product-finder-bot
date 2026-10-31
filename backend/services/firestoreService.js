@@ -57,28 +57,10 @@ const splitKnowMore = (body) => {
   };
 };
 
-// Strips format/anatomy words and botanical (parenthetical) names down to the herb's own identity,
-// e.g. "Karela Fruit Powder ( Momordica Charantian )" -> "karela", so the same herb sold as both a
-// powder and a capsule product can be recognised as "the same product" regardless of which format a
-// concern's text happens to name.
-const herbKey = (name) => name
-  .split('|')[0]
-  .replace(/\(.*?\)/g, '')
-  .replace(/dry extract.*$/i, '')
-  .replace(/extract.*$/i, '')
-  .replace(/\d+\s*(mg|g|kg|%|veg capsules|capsules|caps)\b.*$/i, '')
-  .replace(/\b(root|leaf|leaves|herb|seed|fruit|bark|whole|resin)\b/gi, '')
-  .replace(/\b(powder|capsules|capsule)\b/gi, '')
-  .replace(/\s+/g, ' ')
-  .trim()
-  .toLowerCase();
-
 // A sub-concern's body explicitly names the product(s) it recommends, e.g. "...we recommend Bixa
 // botanical Rosemary Essential Oil and Bixa botanical Bhringraj Powder." — pull those names out and
 // match them to real products so each sub-concern only shows the products it actually mentions,
-// instead of every product under the parent concern's category. When the matched product's herb is
-// also sold in another format (e.g. Powder + Capsules), that sibling product is included too, so
-// shoppers see every way they can buy the recommended herb.
+// instead of every product under the parent concern's category.
 const findMentionedProducts = (sectionText, products) => {
   // The recommend sentence always sits on its own line — stop at the line break (or a period,
   // whichever comes first) rather than scanning ahead into the next paragraph, since some of
@@ -115,17 +97,7 @@ const findMentionedProducts = (sectionText, products) => {
       || products.find(p => { const b = baseName(p.name); return mentionedTokens.every(t => b.includes(t)); })
       || products.find(p => p.name.toLowerCase().includes(norm));
 
-    if (!found) return;
-    addProduct(found);
-
-    // Pull in same-herb siblings sold under a different format (Powder <-> Capsule) so both
-    // options appear together under Recommended Products.
-    const key = herbKey(found.name);
-    if (key) {
-      products
-        .filter(p => p.id !== found.id && p.format && found.format && p.format !== found.format && herbKey(p.name) === key)
-        .forEach(addProduct);
-    }
+    if (found) addProduct(found);
   });
 
   return matched;
@@ -192,9 +164,10 @@ const loadLocalFallbackData = () => {
           imageUrl: p.image_url || 'https://bixabotanical.in/cdn/shop/files/placeholder.jpg',
           productUrl: p.buy_link || 'https://bixabotanical.in',
           // Direct-to-checkout cart permalink for the product's default variant (Shopify's
-          // `/cart/{variantId}:1` pattern) — used by "Buy Now" so it skips the product page
-          // entirely. Falls back to productUrl on the frontend if a product has no variant_id yet.
+          // `/cart/{variantId}:1` pattern). Kept for API consumers; the widget's Add to Cart uses
+          // variantId with Shopify's AJAX cart instead, so customers can collect several products.
           checkoutUrl: p.variant_id ? `https://bixabotanical.in/cart/${p.variant_id}:1` : null,
+          variantId: p.variant_id || null,
           price: p.price || '₹299',
           active: true,
           sortName: name.toLowerCase().replace(/^bixa\s+botanical\s+/i, '').trim(),
@@ -384,7 +357,6 @@ export const getConcerns = async ({ query } = {}) => {
 
 export const getConcernBySlug = async (slug) => {
   let concern = null;
-  let recommendedProducts = [];
 
   if (isCloudFirestoreEnabled) {
     try {
@@ -392,18 +364,6 @@ export const getConcernBySlug = async (slug) => {
       if (!snapshot.empty) {
         const doc = snapshot.docs[0];
         concern = { id: doc.id, ...doc.data() };
-        
-        const mappingsSnap = await db.collection('product_concerns')
-          .where('concernId', '==', concern.id)
-          .orderBy('featured', 'desc')
-          .orderBy('displayOrder', 'asc')
-          .get();
-
-        const productIds = mappingsSnap.docs.map(d => d.data().productId);
-        if (productIds.length > 0) {
-          const prodsSnap = await db.collection('products').where('__name__', 'in', productIds.slice(0, 3)).get();
-          prodsSnap.forEach(pDoc => recommendedProducts.push({ id: pDoc.id, ...pDoc.data() }));
-        }
       }
     } catch (err) {
       console.warn('Firestore error in getConcernBySlug, falling back:', err.message);
@@ -412,11 +372,6 @@ export const getConcernBySlug = async (slug) => {
 
   if (!concern) {
     concern = localStore.concerns.find(c => c.slug === slug || c.id === slug);
-    if (concern) {
-      const mapped = localStore.productConcerns.filter(m => m.concernId === concern.id || m.concernId === slug);
-      const prodIds = new Set(mapped.map(m => m.productId));
-      recommendedProducts = localStore.products.filter(p => prodIds.has(p.id) || p.productType.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') === slug);
-    }
   }
 
   if (!concern) return null;
@@ -426,23 +381,17 @@ export const getConcernBySlug = async (slug) => {
   const mentionCandidates = localStore.products.filter(p => p.category !== 'COMBOS');
   const sections = parseConcernSections(concern.message, mentionCandidates);
 
-  // When the message has explicit sub-concerns, each one names its own products — show the union
-  // of those (deduped) as the concern-level overview instead of an arbitrary category-based slice.
-  if (sections.length > 0) {
-    const seenIds = new Set();
-    recommendedProducts = [];
-    sections.forEach(s => s.products.forEach(p => {
-      if (!seenIds.has(p.id)) {
-        seenIds.add(p.id);
-        recommendedProducts.push(p);
-      }
-    }));
-  }
+  // Only products the copy names are recommended: each sub-concern's own, deduped, or for a message
+  // without sub-concerns, its one "we recommend" line. Generic copy names none, so the widget shows
+  // its "Content coming soon" card.
+  const recommendedProducts = sections.length > 0
+    ? [...new Map(sections.flatMap(s => s.products).map(p => [p.id, p])).values()]
+    : findMentionedProducts(concern.message || '', mentionCandidates);
 
   return {
     ...concern,
     sections,
-    products: sections.length > 0 ? recommendedProducts : recommendedProducts.slice(0, 3)
+    products: recommendedProducts
   };
 };
 

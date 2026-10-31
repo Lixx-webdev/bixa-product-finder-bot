@@ -18,6 +18,12 @@ const HEADING_FONT_URL = 'https://fonts.googleapis.com/css2?family=Playfair+Disp
   host.id = 'bixa-product-finder-widget-container';
   document.body.appendChild(host);
 
+  // The store's cart drawer marks everything else on the page `inert` while it's open. The widget sits
+  // above it and would cover the drawer while ignoring clicks, so it hides until the drawer closes.
+  new MutationObserver(() => {
+    host.style.display = host.inert ? 'none' : '';
+  }).observe(host, { attributes: true, attributeFilter: ['inert'] });
+
   const shadow = host.attachShadow({ mode: 'open' });
   const style = document.createElement('style');
   // `all: initial` stops inherited host-page text styles (letter-spacing, text-align…) crossing in.

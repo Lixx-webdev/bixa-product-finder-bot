@@ -2,13 +2,14 @@ import React from 'react';
 import { Leaf } from 'lucide-react';
 import { trackProductFinderEvent } from '../../utils/analytics';
 import { parseConcernCopy } from './parseConcernCopy';
+import AddToCartButton from './AddToCartButton';
 
 const DOCTOR_CONSULTATION_URL = 'https://bixabotanical.in/pages/free-doctor-consultation';
 
 // The expanded "Know More" screen for a sub-concern's recommended product, navigated to from the
 // "Know More" link on ConcernDetail. Shows the fuller Ayurvedic rationale + benefits list that's
 // hidden by default.
-const ConcernKnowMore = ({ concern, subtopic, productId }) => {
+const ConcernKnowMore = ({ concern, subtopic, productId, onCartChange }) => {
   const products = subtopic?.products || [];
   const product = products.find((p) => p.id === productId) || products[0];
   const blocks = parseConcernCopy(subtopic?.knowMore);
@@ -17,22 +18,6 @@ const ConcernKnowMore = ({ concern, subtopic, productId }) => {
   const checklist = blocks.find((b) => b.type === 'checklist');
   const doctorNote = blocks.find((b) => b.type === 'doctor-note');
   const disclaimer = blocks.find((b) => b.type === 'disclaimer');
-
-  const handleBuyNow = () => {
-    const destination = product?.checkoutUrl || product?.productUrl;
-    trackProductFinderEvent('concern_buy_now_clicked', {
-      concernId: concern?.id,
-      concernName: concern?.name,
-      subtopic: subtopic?.title,
-      productId: product?.id,
-      productName: product?.name,
-      destination,
-      context: 'know_more'
-    });
-    if (destination) {
-      window.open(destination, '_blank', 'noopener,noreferrer');
-    }
-  };
 
   return (
     <div className="flex-1 min-h-0 overflow-y-auto p-5 space-y-4 bixa-scrollbar">
@@ -76,13 +61,17 @@ const ConcernKnowMore = ({ concern, subtopic, productId }) => {
       )}
 
       <div className="flex gap-2">
-        <button
-          onClick={handleBuyNow}
-          disabled={!(product?.checkoutUrl || product?.productUrl)}
-          className="flex-1 py-2.5 bg-bixa-darkgreen hover:bg-bixa-green disabled:bg-gray-200 text-white text-xs font-bold rounded-full transition-colors"
-        >
-          Buy Now
-        </button>
+        <AddToCartButton
+          product={product}
+          trackingContext={{
+            concernId: concern?.id,
+            concernName: concern?.name,
+            subtopic: subtopic?.title,
+            context: 'know_more'
+          }}
+          onCartChange={onCartChange}
+          className="flex-1 py-2.5"
+        />
         <a
           href={DOCTOR_CONSULTATION_URL}
           target="_blank"
@@ -90,7 +79,7 @@ const ConcernKnowMore = ({ concern, subtopic, productId }) => {
           onClick={() => trackProductFinderEvent('talk_to_doctor_clicked', { context: 'know_more' })}
           className="flex-1 py-2.5 text-center bg-white border border-bixa-darkgreen/60 hover:bg-bixa-lightgreen/20 text-bixa-darkgreen text-xs font-bold rounded-full transition-colors"
         >
-          For Doctor Counsultation
+          Book Free Doctor Consultation
         </a>
       </div>
 

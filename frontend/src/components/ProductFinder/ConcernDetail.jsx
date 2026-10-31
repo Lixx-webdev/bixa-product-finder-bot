@@ -3,13 +3,14 @@ import { Loader2, Home } from 'lucide-react';
 import { trackProductFinderEvent } from '../../utils/analytics';
 import { catalogRequest } from '../../utils/catalogClient';
 import { parseConcernCopy } from './parseConcernCopy';
+import AddToCartButton from './AddToCartButton';
 
 const DOCTOR_CONSULTATION_URL = 'https://bixabotanical.in/pages/free-doctor-consultation';
 
 // Shows the recommended product(s) for a concern (or, when reached via ConcernSubtopics, for one
 // of its sub-concerns), matching the "we recommend <product>" + "Best for:" design. Each
 // sub-concern carries only the products its own message text names.
-const ConcernDetail = ({ concern, subtopic, onBackToHome, onKnowMore }) => {
+const ConcernDetail = ({ concern, subtopic, onBackToHome, onKnowMore, onCartChange }) => {
   const [concernData, setConcernData] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -43,9 +44,7 @@ const ConcernDetail = ({ concern, subtopic, onBackToHome, onKnowMore }) => {
   }, [concern]);
 
   const activeConcern = concernData || concern;
-  // Show only the primary recommended product per sub-concern, even when a sub-concern names two
-  // (e.g. a herb available in both powder and capsule) — keeps customer focus on one product.
-  const products = (subtopic ? (subtopic.products || []) : (activeConcern?.products || [])).slice(0, 1);
+  const products = subtopic ? (subtopic.products || []) : (activeConcern?.products || []);
   const displayMessage = subtopic ? (subtopic.summary ?? subtopic.body) : activeConcern?.message;
   const hasKnowMore = Boolean(subtopic?.knowMore);
 
@@ -54,21 +53,6 @@ const ConcernDetail = ({ concern, subtopic, onBackToHome, onKnowMore }) => {
   const bestFor = blocks.find((b) => b.type === 'best-for');
   const doctorNote = blocks.find((b) => b.type === 'doctor-note');
   const isPlaceholder = !leadProduct && products.length === 0;
-
-  const handleBuyNow = (product) => {
-    const destination = product?.checkoutUrl || product?.productUrl;
-    trackProductFinderEvent('concern_buy_now_clicked', {
-      concernId: activeConcern?.id,
-      concernName: activeConcern?.name,
-      subtopic: subtopic?.title,
-      productId: product?.id,
-      productName: product?.name,
-      destination
-    });
-    if (destination) {
-      window.open(destination, '_blank', 'noopener,noreferrer');
-    }
-  };
 
   const handleKnowMoreClick = (product) => {
     trackProductFinderEvent('concern_know_more_opened', {
@@ -172,34 +156,38 @@ const ConcernDetail = ({ concern, subtopic, onBackToHome, onKnowMore }) => {
                   </div>
                 </div>
 
-                <div className="flex gap-2 mt-3">
-                  <button
-                    onClick={() => handleBuyNow(product)}
-                    disabled={!(product.checkoutUrl || product.productUrl)}
-                    className="flex-1 py-2 bg-bixa-darkgreen hover:bg-bixa-green disabled:bg-gray-200 text-white text-xs font-bold rounded-full transition-colors"
-                  >
-                    Buy Now
-                  </button>
-                  <a
-                    href={DOCTOR_CONSULTATION_URL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={() => trackProductFinderEvent('talk_to_doctor_clicked', { context: 'concern_detail_card' })}
-                    className="flex-1 py-2 text-center bg-white border border-bixa-darkgreen/60 hover:bg-bixa-lightgreen/20 text-bixa-darkgreen text-xs font-bold rounded-full transition-colors"
-                  >
-                    For Doctor Counsultation
-                  </a>
-                </div>
-
-                <button
-                  onClick={handleMainMenu}
-                  className="w-full text-center text-[11px] font-semibold text-gray-500 hover:text-bixa-darkgreen mt-2 inline-flex items-center justify-center gap-1"
-                >
-                  <Home className="w-3 h-3" />
-                  Main Menu
-                </button>
+                <AddToCartButton
+                  product={product}
+                  trackingContext={{
+                    concernId: activeConcern?.id,
+                    concernName: activeConcern?.name,
+                    subtopic: subtopic?.title
+                  }}
+                  onCartChange={onCartChange}
+                  className="w-full py-2 mt-3"
+                />
               </div>
             ))}
+          </div>
+
+          <div>
+            <a
+              href={DOCTOR_CONSULTATION_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => trackProductFinderEvent('talk_to_doctor_clicked', { context: 'concern_detail_card' })}
+              className="block w-full py-2 text-center bg-white border border-bixa-darkgreen/60 hover:bg-bixa-lightgreen/20 text-bixa-darkgreen text-xs font-bold rounded-full transition-colors"
+            >
+              Book Free Doctor Consultation
+            </a>
+
+            <button
+              onClick={handleMainMenu}
+              className="w-full text-center text-[11px] font-semibold text-gray-500 hover:text-bixa-darkgreen mt-2 inline-flex items-center justify-center gap-1"
+            >
+              <Home className="w-3 h-3" />
+              Main Menu
+            </button>
           </div>
 
           {doctorNote && (
